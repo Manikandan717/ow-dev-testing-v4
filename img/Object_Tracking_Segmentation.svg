@@ -1,0 +1,46 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Object Tracking _ Segmentation-ai</title>
+	<style>
+		.s0 { fill: #fc6140 } 
+		.s1 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+		.s2 { fill: #ffffff } 
+		.s3 { fill: #fff8e1 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m60.1 569h679.8v96.6h-679.8z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m60.1 569h679.8v96.6h-679.8z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m201.5 476.4h397c16.6 0 30.1 13.5 30.1 30.1v62.5h-457.2v-62.5c0-16.6 13.5-30.1 30.1-30.1z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m201.5 476.4h397c16.6 0 30.1 13.5 30.1 30.1v62.5h-457.2v-62.5c0-16.6 13.5-30.1 30.1-30.1z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m454.7 476.4l12.1-74.9"/>
+				<path id="&lt;Path&gt;" class="s1" d="m345.3 476.4l-12.1-74.9"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s3" d="m227.4 134.4h345.2c15.8 0 27.8 14.3 25 29.9l-37.7 216.1c-2.2 12.2-12.8 21.1-25.1 21.1h-269.6c-12.3 0-22.9-8.9-25.1-21.1l-37.7-216.1c-2.8-15.6 9.2-29.9 25-29.9z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m227.4 134.4h345.2c15.8 0 27.8 14.3 25 29.9l-37.7 216.1c-2.2 12.2-12.8 21.1-25.1 21.1h-269.6c-12.3 0-22.9-8.9-25.1-21.1l-37.7-216.1c-2.8-15.6 9.2-29.9 25-29.9z"/>
+			<circle id="&lt;Path&gt;" class="s2" cx="400" cy="268" r="83.8"/>
+			<circle id="&lt;Path&gt;" class="s1" cx="400" cy="268" r="83.8"/>
+			<circle id="&lt;Path&gt;" class="s0" cx="400" cy="255.7" r="24.9"/>
+			<circle id="&lt;Path&gt;" class="s1" cx="400" cy="255.7" r="24.9"/>
+			<path id="&lt;Path&gt;" class="s1" d="m438.1 300.3c-11.4 6.1-24.3 9.5-38.1 9.5-13.8 0-26.7-3.4-38.1-9.5"/>
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<path id="&lt;Path&gt;" class="s1" d="m606.6 239.9c14.6 6.6 24.7 21.2 24.7 38.3 0 17-10.1 31.7-24.7 38.2"/>
+						<path id="&lt;Path&gt;" class="s1" d="m634.4 222.6c21 9.7 35.5 31 35.5 55.6 0 24.5-14.4 45.8-35.4 55.6"/>
+						<path id="&lt;Path&gt;" class="s1" d="m674.8 210.9c18.4 15.6 30.1 39.9 30.1 67.3 0 27.2-11.7 51.5-30 67.3"/>
+					</g>
+					<path id="&lt;Path&gt;" class="s1" d="m674.8 210.9c18.4 15.6 30.1 39.9 30.1 67.3 0 27.2-11.7 51.5-30 67.3"/>
+				</g>
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<path id="&lt;Path&gt;" class="s1" d="m193.4 316.4c-14.6-6.5-24.7-21.2-24.7-38.2 0-17.1 10.1-31.7 24.7-38.3"/>
+						<path id="&lt;Path&gt;" class="s1" d="m165.5 333.8c-21-9.8-35.4-31.1-35.4-55.6 0-24.6 14.5-45.9 35.5-55.6"/>
+						<path id="&lt;Path&gt;" class="s1" d="m125.1 345.5c-18.3-15.8-30-40.1-30-67.3 0-27.4 11.7-51.7 30.1-67.3"/>
+					</g>
+					<path id="&lt;Path&gt;" class="s1" d="m125.1 345.5c-18.3-15.8-30-40.1-30-67.3 0-27.4 11.7-51.7 30.1-67.3"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

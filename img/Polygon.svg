@@ -1,0 +1,24 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Characters-01 (1)-ai</title>
+	<style>
+		.s0 { fill: #fff8e1 } 
+		.s1 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+		.s2 { fill: #fc6140 } 
+		.s3 { fill: #000000 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m653.7 341.2l-96.9 298.3h-313.6l-96.9-298.3 253.7-184.3z"/>
+				<path id="&lt;Path&gt;" class="s1" d="m653.7 341.2l-96.9 298.3h-313.6l-96.9-298.3 253.7-184.3z"/>
+				<circle id="&lt;Path&gt;" class="s2" cx="653.7" cy="341.2" r="49.1"/>
+				<circle id="&lt;Path&gt;" class="s2" cx="146.3" cy="341.2" r="49.1"/>
+				<circle id="&lt;Path&gt;" class="s2" cx="400" cy="160.5" r="49.1"/>
+				<circle id="&lt;Path&gt;" class="s2" cx="558.6" cy="639.5" r="49.1"/>
+				<circle id="&lt;Path&gt;" class="s2" cx="240.6" cy="639.5" r="49.1"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s1" d="m196.9 497q122.2 21.1 168.9 105.2"/>
+			<path id="&lt;Path&gt;" class="s3" d="m345 611.9l40.5-18.8-4 44.5z"/>
+		</g>
+	</g>
+</svg>

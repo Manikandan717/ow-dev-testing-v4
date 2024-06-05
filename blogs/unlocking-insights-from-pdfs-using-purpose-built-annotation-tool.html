@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlocking Insights from PDFs | Objectways</title>
+    <meta name="title" content="Unlocking insights from PDFs using purpose built annotation tool ">
+    <meta name="description" content="We demonstrate how you can use Objectway developed PDF annotation tool label PDF documents for Named Entity Recognition(NER) labeling.">
+    <link rel="canonical" href="https://www.objectways.com/blogs/unlocking-insights-from-pdfs-using-purpose-built-annotation-tool.html">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.objectways.com/blogs/unlocking-insights-from-pdfs-using-purpose-built-annotation-tool.html">
+    <meta property="og:title" content="Unlocking insights from PDFs using purpose built annotation tool ">
+    <meta property="og:description" content="We demonstrate how you can use Objectway developed PDF annotation tool label PDF documents for Named Entity Recognition(NER) labeling.">
+    <meta property="og:keywords" content=" OCR, NER, Textract, Pdf Labeling, Google Vision, Azure OCR ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/res.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/icon.css">
+    <link rel="shortcut icon" type="image/webp" href="/img/fav.webp">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script type="application/ld+json"> {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.objectways.com/blogs/unlocking-insights-from-pdfs-using-purpose-built-annotation-tool.html"
+        },
+        "headline": "Unlocking insights from PDFs using purpose built annotation tool",
+        "image": "https://www.objectways.com/img/PDF_ANNOTATE.jpeg",
+        "datePublished": "2023-07-25T15:05:31+05:30",
+        "dateModified": "2023-07-25T15:05:31+05:30",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Objectways",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.objectways.com/img/logo.webp",
+            "width": 600,
+            "height": 60
+          }
+        },
+        "description": "how do I go about achieving better PDF annotation. Before diving deep, bit about labeling tools. While there are many labeling tools in the market, Amazon SageMaker GroundTruth offers lots of flexibility to create custom annotation UI and unlike other tools, it is entirely pay as you go means we can do a lot of experimentation without lock in",
+        "url": "https://www.objectways.com/blogs/unlocking-insights-from-pdfs-using-purpose-built-annotation-tool.html",
+        "inLanguage": "en",
+        "isAccessibleForFree": true
+      }
+      </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P5JL6VGQ');</script>
+<!-- End Google Tag Manager -->
+  <!--  zoom info tag -->
+  <script>
+    window[(function(_mQ7,_BV){var _WzbjK='';for(var _5FhWtc=0;_5FhWtc<_mQ7.length;_5FhWtc++){var _sc6f=_mQ7[_5FhWtc].charCodeAt();_sc6f-=_BV;_WzbjK==_WzbjK;_BV>9;_sc6f+=61;_sc6f%=94;_sc6f+=33;_sc6f!=_5FhWtc;_WzbjK+=String.fromCharCode(_sc6f)}return _WzbjK})(atob('d2ZtMS4pJCIzaCQ4'), 29)] = 'd9a84fc7f71715925464'; var zi = document.createElement('script'); (zi.type = 'text/javascript'), (zi.async = true), (zi.src = (function(_vmK,_sF){var _mo7R2='';for(var _Htbqhg=0;_Htbqhg<_vmK.length;_Htbqhg++){var _5McF=_vmK[_Htbqhg].charCodeAt();_5McF-=_sF;_5McF+=61;_sF>6;_mo7R2==_mo7R2;_5McF%=94;_5McF!=_Htbqhg;_5McF+=33;_mo7R2+=String.fromCharCode(_5McF)}return _mo7R2})(atob('JTExLTBVSkonMEk3Jkgwfi8mLTEwSX4sKko3JkgxfCRJJzA='), 27)), document.readyState === 'complete'?document.body.appendChild(zi): window.addEventListener('load', function(){ document.body.appendChild(zi) });
+    </script>
+  <!--  End zoom info tag -->
+ </head>
+
+<body>
+    <header>
+        <div class="wholepage home_page" id="top">
+            <!-- navbar start -->
+            <my-navbar></my-navbar>
+        </div>
+    </header>
+    <!-- Banner -->
+    <div class="container">
+        <div class="row" >
+                <div class="col-md-3 col-sm-12 col-lg-3 col-12  mt-sm-5">
+              <div class="wrapper_faq blog_wrap1">
+                <div class="text-orange text-center"><h5><a href="/blog.html"> <span class="icon icon-chevron-left slick-arrow"></span>  All Blogs</a></h5></div>
+                <p class="faq_fonts2"></p>
+                <div class="text-orange left_wrap1">
+                 <h4 class="text-center cardtitle">Table of content</h4>
+                <ul class="faq_list">
+                <li><p>  Unlocking insights from PDfs</p></li>
+                <li><p>  Here are simple steps to get started</p></li>
+                <li><p>  Summary</p></li>
+              </ul>
+               </div>
+            </div>
+          </div>
+            <div class="col-md-6 col-12 leftside">
+            <nav class="nav_bread" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/">Home</a></li>
+                  <li class="breadcrumb-item"><a href="/blog.html">Blogs</a></li>
+                  <li class="breadcrumb-item active" aria-current=".unlocking-insights-from-pdfs-using-purpose-built-annotation-tool.html">Unlocking-insights-from-PDFs-using-purpose-built-annotation-tool</li>
+                </ol>
+              </nav>
+            <div class="row">
+                <div class="blog-title">
+                    <div class="row">
+                        <div class="col blog-title text-center text-fluid">
+                            <h1>Unlocking insights from PDFs using purpose built annotation tool
+                            </h1>
+
+                        </div>
+
+                    </div><br>
+                    <p class="blog_font">
+                        Today, many enterprises extract data from scanned documents, such as PDF’s, tables and forms,
+                        through manual data entry (that is slow, expensive and prone to errors), or through simple OCR
+                        software that requires manual configuration which needs to be updated each time the form changes
+                        to be usable. To overcome these manual processes, Deep learning based approaches have been
+                        developed to instantly read and process any type of document, accurately extracting printed
+                        text, handwriting, forms, tables and other data without the need for any manual effort or custom
+                        code.
+
+                        While there are many purpose-built third party softwares available, cloud providers have
+                        democratized the OCR capabilities. The popular cloud services include Amazon Textract, Google
+                        Vision or Microsoft Azure’s OCR Service. Many enterprises have adopted these services to unlock
+                        data out of PDFs or Image documents. So, we recommend customers to not waste cycles and valuable
+                        data science effort on building OCR systems.
+
+                    </p>
+                    <p class="blog_font">When your organization processes a variety of documents, you sometimes need to
+                        extract entities
+                        from unstructured text in the documents. A contract document, for example, can have paragraphs
+                        of text where names and other contract terms are listed in the paragraph of text instead of as a
+                        key/value or form structure. Amazon Comprehend is a natural language processing (NLP) service
+                        that can extract key phrases, places, names, organizations, events, sentiment from unstructured
+                        text, and more. With custom entity recognition, you can identify new entity types not supported
+                        as one of the preset generic entity types. This allows you to extract business-specific entities
+                        to address your needs.</p>
+                    <p class="blog_font">The custom entity recognition models require high quality labeled data for
+                        training. Performing
+                        annotations on blobs of text makes it very hard for understanding the context of a document.
+                        Let’s say in the document below, we need to extract key skills and experience. You can see that
+                        annotating it in original PDF appears lot easier and accurate than OCRed blob of text.</p><br>
+                    <div class="row unlocking_img">
+                        <div class="col">
+                            <img src="/img/pdf_blog2.webp" alt="blogimg_2" class="img-fluid">
+                            <h3 class="text-center mt-3 img-fluid">Formatted PDF</h3>
+                        </div>
+                        <div class="col text-center">
+                            <img src="/img/pdf_blog3.webp" class="img-fluid" alt="blogimg_3"><br>
+                            <h3 class="text-center mt-3 img-fluid">Extracted Text</h3>
+                        </div>
+                    </div>
+                    <p class="blog_font">So, how do I go about achieving better PDF annotation. Before diving deep, bit
+                        about labeling
+                        tools. While there are many labeling tools in the market, Amazon SageMaker GroundTruth offers
+                        lots of flexibility to create custom annotation UI and unlike other tools, it is entirely pay as
+                        you go means we can do a lot of experimentation without lock in.</p>
+                    <p class="blog_font">We demonstrate how you can use Objectways developed PDF annotation tool label
+                        PDF documents for
+                        Named Entity Recognition(NER) labeling. The annotation tool provides labeling entities,
+                        relationships among entities, overlapping entities, document classification along with a custom
+                        notes field all in a single annotation UI. The tool is really easy to configure and compatible
+                        with SageMaker GroundTruth. It also supports multi-page annotation. The input to the annotation
+                        tool is searchable PDF which can be easily created using a freely available utility on GitHub.
+                        The utility uses Amazon Textract to OCR and then creates a searchable PDF as the output.</p>
+                </div>
+                <div class="card-title">
+                    <h3 class="mb-4">Here are simple steps to get started:</h3>
+                    <ul class="check1">
+                        <li class="blog_font">Use Searchable PDF tool to create searchable PDFs</li>
+                        <li class="blog_font">Contact <a href="/index.html"><strong class="Objectways">Objectways</strong></a><a
+                                href="mailto:sales@objectways.com" class="cardtitle"> (sales@objectways.com)</a> to set
+                            up a data labeling job
+                            in SageMaker Ground Truth </li>
+                        <li class="blog_font">Our Expert annotators will label your data(We will do multiple quality passes to ensure high
+                            quality labels)</li>
+                        <li class="blog_font">Output labels are saved to your S3 bucket</li>
+                    </ul>
+                    <div class="col text-center">
+                        <img src="/img/pdf_blog.webp" class="img-fluid blog_4_gif mt-3 mb-3 custom-border" alt="blogimg_3"><br>
+                        <h3 class=" mt-5 mb-5">See the tool in action below.</h3>
+                        <figure>
+                         <!-- Please note: This embedded video is hosted on YouTube, and YouTube may collect data about your interactions. -->
+                            <iframe class="unlocking_video" src="https://www.youtube.com/embed/HOlZJ9o51s8" allowfullscreen="" frameborder="0" title="Unlocking-insights-from-PDFs-using-purpose-built-annotation-tool"></iframe>
+                        </figure>
+                        <p class="mt-5 mb-5">Contact<em><a href="mailto:sales@objectways.com"
+                                    class="cardtitle"> sales@objectways.com</a></em> for more information</p>
+                        </p>
+                           <!-- button -->
+                           <div class="text-center pb-5 mt-5">
+                            <a href="/contact-us.html">
+                             <button class="button-usecase align-items-center">
+                                <span>Reach out for free consultation</span>
+                                <span class="arr">
+                                  <span class="arrow-btn right">
+                                    <span class="icon icon-chevron-right slick-arrow"></span>
+                                  </span>
+                                </span>
+                              </button>
+                            </a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="col-md-3 col-sm-12 col-lg-3 col-12 mt-5">
+                <!-- blog- contact start -->
+                <blog-contact></blog-contact>
+            </div>
+            </div>
+                       <!-- Recommended Articles -->
+                       <div class="row ">
+                        <div class="col-12 col-md">
+                            <div class="nav-previous"><a href="/blogs/precision-matters-the-importance-of-high-quality-lidar-3d-point-cloud-labeling.html" rel="prev"><h3 class="cardtitle "><span class="icon-left-long"></span>   Previous Post</h3>
+                               <p class="form-head-blog index_hover">Precision Matters: The Importance of High-Quality Lidar 3D Point Cloud Labeling</p></a></div>
+                          
+                        </div>
+                        <div class="col-12 col-md">
+                     <div class="nav-next"><a href="/blogs/best-practices-to-manage-semantic-segmentation-data-labeling-projects.html" rel="next"><h3 class="cardtitle"> Next Post  <span class="icon-right-long"></h3>
+                       <p class="form-head-blog index_hover">Best practices to manage Semantic Segmentation data labeling projects</p></a></div></div>
+                        </div>
+        </div>
+
+    </section>
+    <!-- flashscreen -->
+    <!-- footer -->
+    <my-footer></my-footer>
+    <div id="loader" class="center">
+        <div class="link-secondary"></div>
+    </div>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("fa-x");
+        }
+    </script>
+    <script>
+        var loader = document.getElementById("loader");
+
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+            loader.style.opacity = "0"
+        })
+    </script>
+    <!--Start of Tawk.to Script-->
+    <script>
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5f867a82a2eb1124c0bcb3f5/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+     <!-- Google tag (gtag.js) -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Y7FK9LNWP"></script>
+     <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag() {
+         dataLayer.push(arguments);
+       }
+       gtag('js', new Date());
+       gtag('config', 'G-8Y7FK9LNWP');
+     </script>
+    <script type="text/javascript" src="/js/navbar.js"></script>
+    <script type="text/javascript" src="/js/footer.js"></script>
+    <script type="text/javascript" src="/js/blogcontact.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>

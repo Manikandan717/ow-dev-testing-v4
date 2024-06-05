@@ -1,0 +1,43 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Iterate on Instructions-ai</title>
+	<style>
+		.s0 { fill: #ffd740 } 
+		.s1 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+
+
+#r1{
+  transform-box: fill-box;
+  transform-origin: top;
+  animation: rotate 2s linear infinite ;;
+  }
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m399.9 532.9l-142.4-148.8 71.2-74.7h142.4l71.2 74.7z"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s1" d="m399.9 532.9l-142.4-148.8 71.2-74.7h142.4l71.2 74.7z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m542.3 384.1h-284.8"/>
+			<path id="&lt;Path&gt;" class="s1" d="m471.1 309.4l-71.2 223.5-71.2-223.5"/>
+			<path id="&lt;Path&gt;" class="s1" d="m447.3 384.1l-47.4-74.7"/>
+			<path id="&lt;Path&gt;" class="s1" d="m352.5 384.1l47.4-74.7"/>
+			<g id="r1">
+			<path id="&lt;Path&gt;" class="s1" d="m193.6 326.6c30.1-84.8 111.1-145.6 206.3-145.6 95.2 0 176.2 60.8 206.3 145.6l7.1-47.1"/>
+			<path id="&lt;Path&gt;" class="s1" d="m606.2 326.6l-41.7-14.8"/>
+			<path id="&lt;Path&gt;" class="s1" d="m606.2 473.4c-30.1 84.8-111.1 145.6-206.3 145.6-95.2 0-176.2-60.8-206.3-145.6l46.1 22.7"/>
+			<path id="&lt;Path&gt;" class="s1" d="m193.6 473.4l-6.9 51.1"/>
+			</g>
+		</g>
+	</g>
+</svg>

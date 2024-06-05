@@ -1,0 +1,44 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Segmentation-ai</title>
+	<style>
+		.s0 { fill: #fff8e1 } 
+		.s1 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+		.s2 { fill: #ffd740 } 
+		.s3 { fill: #fc6140 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m623.8 623.8h-447.5v-447.6h447.5z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m572.9 176.3h-345.8"/>
+				<path id="&lt;Path&gt;" class="s1" d="m572.9 623.8h-345.8"/>
+				<path id="&lt;Path&gt;" class="s1" d="m623.8 572.9v-345.8"/>
+				<path id="&lt;Path&gt;" class="s1" d="m176.3 572.9v-345.8"/>
+				<g id="&lt;Group&gt;">
+					<circle id="&lt;Path&gt;" class="s2" cx="623.8" cy="176.2" r="50.8"/>
+				</g>
+				<circle id="&lt;Path&gt;" class="s1" cx="623.8" cy="176.2" r="50.8"/>
+				<g id="&lt;Group&gt;">
+					<circle id="&lt;Path&gt;" class="s2" cx="176.3" cy="176.3" r="50.8"/>
+				</g>
+				<circle id="&lt;Path&gt;" class="s1" cx="176.3" cy="176.3" r="50.8"/>
+				<g id="&lt;Group&gt;">
+					<circle id="&lt;Path&gt;" class="s2" cx="623.8" cy="623.8" r="50.8"/>
+				</g>
+				<circle id="&lt;Path&gt;" class="s1" cx="623.8" cy="623.8" r="50.8"/>
+				<g id="&lt;Group&gt;">
+					<circle id="&lt;Path&gt;" class="s2" cx="176.2" cy="623.8" r="50.8"/>
+				</g>
+				<path id="&lt;Path&gt;" class="s3" d="m546.3 302.9v194.2l-69.4-97.1z"/>
+				<circle id="&lt;Path&gt;" class="s1" cx="176.2" cy="623.8" r="50.8"/>
+				<path id="&lt;Path&gt;" class="s1" d="m546.3 302.9v194.2l-69.4-97.1z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m323.1 400l-69.4 97.1v-194.2z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m302.9 253.7h194.2l-97.1 69.4z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m400 476.9l97.1 69.4h-194.2z"/>
+				<path id="&lt;Path&gt;" class="s1" d="m323.1 400l-69.4 97.1v-194.2z"/>
+				<path id="&lt;Path&gt;" class="s1" d="m302.9 253.7h194.2l-97.1 69.4z"/>
+				<path id="&lt;Path&gt;" class="s1" d="m400 476.9l97.1 69.4h-194.2z"/>
+			</g>
+		</g>
+	</g>
+</svg>

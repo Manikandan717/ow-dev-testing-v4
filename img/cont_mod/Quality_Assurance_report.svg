@@ -1,0 +1,42 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Quality Assurance _ report-ai</title>
+	<style>
+		.s0 { fill: #fff8e1 } 
+		.s1 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+		.s2 { fill: #fc6140 } 
+		.s3 { fill: #000000 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m751.9 400c0 194.4-157.5 351.9-351.9 351.9-194.4 0-351.9-157.5-351.9-351.9 0-194.4 157.5-351.9 351.9-351.9 194.4 0 351.9 157.5 351.9 351.9z"/>
+				<path id="&lt;Path&gt;" class="s1" d="m751.9 400c0 194.4-157.5 351.9-351.9 351.9-194.4 0-351.9-157.5-351.9-351.9 0-194.4 157.5-351.9 351.9-351.9 194.4 0 351.9 157.5 351.9 351.9z"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s2" d="m222.4 612.1h-38v-89.7h38z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m335.4 612.1h-38v-196.2h38z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m448.4 612.1h-38.1v-305h38.1z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m561.4 612.1h-38.1v-402.3h38.1z"/>
+				<path id="&lt;Path&gt;" class="s1" d="m523.3 612.1v-402.3c0 0 83.7-2.4 83.7 0 0 2.5 0 402.3 0 402.3"/>
+				<path id="&lt;Path&gt;" class="s1" d="m410.3 612.1v-305.2c0 0 83.7-1.9 83.7 0 0 1.8 0 305.2 0 305.2"/>
+				<path id="&lt;Path&gt;" class="s1" d="m297.4 612.1v-196c0 0 83.7-1.2 83.7 0 0 1.2 0 196 0 196"/>
+				<path id="&lt;Path&gt;" class="s1" d="m184.4 612.1v-89.7c0 0 83.7-0.6 83.7 0 0 0.5 0 89.7 0 89.7"/>
+				<path id="&lt;Path&gt;" class="s3" d="m474.3 208.8h19.7v19.1h-19.7z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m432.9 208.8h19.7v19.1h-19.7z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m391.5 208.8h19.7v19.1h-19.7z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m350 208.8h19.8v19.1h-19.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m308.6 208.8h19.8v19.1h-19.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m267.2 208.8h19.8v19.1h-19.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m225.8 208.8h19.8v19.1h-19.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m184.4 208.8h19.7v19.1h-19.7z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m350 307.1h19.8v19.2h-19.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m308.6 307.1h19.8v19.2h-19.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m267.2 307.1h19.8v19.2h-19.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m225.8 307.1h19.8v19.2h-19.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m184.4 307.1h19.7v19.2h-19.7z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m225.8 415.6h19.8v19.2h-19.8z"/>
+				<path id="&lt;Path&gt;" class="s3" d="m184.4 415.6h19.7v19.2h-19.7z"/>
+			</g>
+		</g>
+	</g>
+</svg>

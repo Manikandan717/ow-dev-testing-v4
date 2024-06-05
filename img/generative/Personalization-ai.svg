@@ -1,0 +1,47 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+	<title>Personalization-ai</title>
+	<style>
+		.s0 { fill: #bbebf1 } 
+		.s1 { fill: #03bbd7 } 
+		.s2 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+		.s3 { fill: #ffffff } 
+		.s4 { fill: #fc613f } 
+		.s5 { fill: #ffe8ad } 
+		.s6 { fill: #d43b20 } 
+	</style>
+	<g id="Layer 1">
+		<path id="&lt;Path&gt;" class="s0" d="m142.9 861.7l49.9 24h667.6l50-24v-39.4h-767.5z"/>
+		<path id="&lt;Path&gt;" class="s1" d="m852.7 822.3h-647.7v-460.7h647.7z"/>
+		<path id="&lt;Path&gt;" class="s0" d="m249 778.3v-372.7h559.7v372.7z"/>
+		<path id="&lt;Path&gt;" class="s2" d="m852.7 822.3h-647.7v-460.7h647.7z"/>
+		<path id="&lt;Path&gt;" class="s2" d="m249 778.3v-372.7h559.7v372.7z"/>
+		<path id="&lt;Path&gt;" class="s2" d="m402.2 405.6v372.7"/>
+		<path id="&lt;Path&gt;" class="s3" d="m351.7 546.2h-51.2v-51.2h51.2z"/>
+		<path id="&lt;Path&gt;" class="s3" d="m351.7 621.3h-51.2v-51.2h51.2z"/>
+		<path id="&lt;Path&gt;" class="s3" d="m351.7 696.3h-51.2v-51.2h51.2z"/>
+		<path id="&lt;Path&gt;" class="s2" d="m351.7 546.2h-51.2v-51.2h51.2z"/>
+		<path id="&lt;Path&gt;" class="s2" d="m351.7 621.3h-51.2v-51.2h51.2z"/>
+		<path id="&lt;Path&gt;" class="s2" d="m351.7 696.3h-51.2v-51.2h51.2z"/>
+		<path id="&lt;Path&gt;" class="s2" d="m738.1 684.4h-290.9"/>
+		<path id="&lt;Path&gt;" class="s2" d="m483 684.4l52.1-107.5h42.6l29 37.5 33.3-115.1 58.8 185.1"/>
+		<path id="&lt;Path&gt;" class="s2" d="m142.9 861.7l49.9 24h667.6l50-24v-39.4h-767.5z"/>
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s4" d="m980.1 600.8c0 24.9-6.3 48.3-17.6 68.7-13 23.8-32.6 43.4-56.4 56.5-20.4 11.2-43.8 17.6-68.7 17.6-78.9 0-142.8-63.9-142.8-142.8 0-78.9 63.9-142.8 142.8-142.8 78.8 0 142.7 63.9 142.7 142.8z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m980.1 600.8c0 24.9-6.3 48.3-17.6 68.7-13 23.8-32.6 43.4-56.4 56.5-20.4 11.2-43.8 17.6-68.7 17.6-78.9 0-142.8-63.9-142.8-142.8 0-78.9 63.9-142.8 142.8-142.8 78.8 0 142.7 63.9 142.7 142.8z"/>
+				<path id="&lt;Path&gt;" class="s5" d="m949.3 600.8c0 61.8-50.1 111.9-111.9 111.9-61.8 0-112-50.1-112-111.9 0-61.8 50.2-111.9 112-111.9 61.8 0 111.9 50.1 111.9 111.9z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m949.3 600.8c0 61.8-50.1 111.9-111.9 111.9-61.8 0-112-50.1-112-111.9 0-61.8 50.2-111.9 112-111.9 61.8 0 111.9 50.1 111.9 111.9z"/>
+				<path id="&lt;Path&gt;" class="s6" d="m1057.2 820.6h-0.1c-15.5 15.6-40.8 15.6-56.4 0l56.4-56.5c15.7 15.6 15.7 40.9 0.1 56.5z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m1057.2 820.6h-0.1c-15.5 15.6-40.8 15.6-56.4 0l56.4-56.5c15.7 15.6 15.7 40.9 0.1 56.5z"/>
+				<path id="&lt;Path&gt;" class="s4" d="m1057.1 764.1l-56.4 56.5-94.6-94.6c23.8-13.1 43.4-32.7 56.4-56.5z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m1057.1 764.1l-56.4 56.5-94.6-94.6c23.8-13.1 43.4-32.7 56.4-56.5z"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s4" d="m845.5 638.1h-16.3v-113h16.3z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m845.5 638.1h-16.3v-113h16.3z"/>
+				<path id="&lt;Path&gt;" class="s4" d="m845.5 672.6h-16.3v-16.3h16.3z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m845.5 672.6h-16.3v-16.3h16.3z"/>
+			</g>
+		</g>
+	</g>
+</svg>

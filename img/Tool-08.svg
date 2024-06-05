@@ -1,0 +1,26 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Our Custom Tool-08-ai</title>
+	<style>
+		.s0 { fill: #ffd740 } 
+		.s1 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+		.s2 { fill: #fc6140 } 
+	</style>
+	<g id="Layer 1">
+		<circle id="&lt;Path&gt;" class="s0" cx="616.1" cy="301.1" r="48.1"/>
+		<circle id="&lt;Path&gt;" class="s1" cx="616.1" cy="301.1" r="48.1"/>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m614.7 555.2h-96.2v-96.2h96.2z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m281.5 555.2h-96.2v-96.2h96.2z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m448.1 341h-96.2v-96.2h96.2z"/>
+			<circle id="&lt;Path&gt;" class="s0" cx="183.9" cy="301.1" r="48.1"/>
+			<path id="&lt;Path&gt;" class="s1" d="m614.7 555.2h-96.2v-96.2h96.2z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m448.1 341h-96.2v-96.2h96.2z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m281.5 555.2h-96.2v-96.2h96.2z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m448.2 295.2c68.4 20.6 118.4 84.3 118.4 159.5"/>
+			<path id="&lt;Path&gt;" class="s1" d="m233.5 454.7c0-75.3 49.9-139 118.4-159.7"/>
+			<path id="&lt;Path&gt;" class="s1" d="m466 301.1h102"/>
+			<path id="&lt;Path&gt;" class="s1" d="m334 301.1h-102"/>
+			<circle id="&lt;Path&gt;" class="s1" cx="183.9" cy="301.1" r="48.1"/>
+		</g>
+	</g>
+</svg>

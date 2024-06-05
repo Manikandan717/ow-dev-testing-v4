@@ -1,0 +1,119 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200">
+	<title>Insurance-ai</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 23px;line-height: 49px;fill: #000000;font-weight: 500;font-family: "Montserrat-Medium", "Montserrat" } 
+		.s1 { fill: #00a4a7 } 
+		.s2 { fill: #bcebf1 } 
+		.s3 { fill: #ffffff } 
+		.s4 { fill: #fc6140 } 
+		.s5 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+
+.w1{
+  animation: w1 3s linear infinite ;
+  animation-delay: 2s;
+}
+.w2{
+  animation: w2 3s linear infinite ;
+  animation-delay: 3s;
+}
+.w3{
+  animation: w3 3s linear infinite ;
+  animation-delay: 6s;
+}
+.w4{
+  animation: w4 3s ease infinite ;
+}
+		@keyframes w1 {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes w2 {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes w3 {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes w4 {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+	</style>
+	<g id="Layer 1">
+		<text id="News &amp; Media
+
+" style="transform: matrix(4,0,0,4,946.734,-167.062)" >
+			<tspan x="-83.3" y="0" class="t0">News &amp; Media
+</tspan>
+		</text>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s1" d="m1600 1200h-1600v-1200h1600z"/>
+		</g>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s2" d="m1134.3 752.2l-186.9 293.6h-554.6l-3.1-9q0-369.2 0-369.6 0-0.5-6.3-5.3l-59.3-0.5-8.9-3 299.9-241.6 17.7-1.8h248.5l9.7 3.4q297.5 234.5 298.6 235.1c1 0.6 1.4 7.4-0.2 7.4-1.5 0-16.1-0.9-31.7 1-15.6 1.9-9.6 9.1-15.5 18.5z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m849.8 661.9h298.3v384.1h-298.3z"/>
+			<path id="&lt;Path&gt;" class="s4" d="m916.6 661.9h-60.3l-10.7-3.4-223.8-181.8-9-3.4q-215.2 173.6-219.9 177.4-4.7 3.8-3.6 10.1l-13.4 1-54.6 0.9-2.7-4.4 296.5-241.5 9 3.1 288.8 236.3z"/>
+			<path id="&lt;Path&gt;" class="s5" d="m849.8 661.9h298.3v384.1h-298.3z"/>
+			<path id="&lt;Path&gt;" class="s5" d="m1235 1046h-845.7v-392.4l225.9-182.3 234.6 190.6"/>
+			<path id="&lt;Path&gt;" class="s3" d="m641.9 820.9h152.4v106.7h-152.4z"/>
+			<path id="&lt;Path&gt;" class="s5" d="m409.6 1046h-126.1"/>
+			<path id="&lt;Path&gt;" class="s5" d="m389.3 661.9h-76.7l305.5-246.9h268.7l311.3 246.9h-54.3"/>
+			<path id="&lt;Path&gt;" class="s5" d="m618.1 415l301.7 246.9"/>
+			<path id="&lt;Path&gt;" class="s2" d="m914 738h182.3v110.6h-182.3z"/>
+			<path id="&lt;Path&gt;" class="s5" d="m914 738h182.3v110.6h-182.3z"/>
+			<circle id="&lt;Path&gt;" class="s3" cx="618.1" cy="629.7" r="52"/>
+			<path id="&lt;Path&gt;" class="s5" d="m1005.1 738v110.6"/>
+			<path id="&lt;Path&gt;" class="s5" d="m641.9 820.9h152.4v106.7h-152.4z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m498.3 816.8h36.3c26.7 0 48.4 21.6 48.4 48.3v180.9h-133.1v-180.9c0-26.7 21.7-48.3 48.4-48.3z"/>
+			<circle id="&lt;Path&gt;" class="s5" cx="618.1" cy="629.7" r="52"/>
+			<path id="&lt;Path&gt;" class="s5" d="m498.3 816.8h36.3c26.7 0 48.4 21.6 48.4 48.3v180.9h-133.1v-180.9c0-26.7 21.7-48.3 48.4-48.3z"/>
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s4 w1" d="m1167.8 569.2c-101-66.2-148.7-116.1-148.7-164.2q0-48 0-198.9l148.7-52.1 148.7 52.1q0 150.9 0 198.9c0 48.1-47.7 98-148.7 164.2z"/>
+				</g>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s2 w2" d="m1167.8 524.8c-79.4-52-116.9-91.3-116.9-129.1q0-37.7 0-156.4l116.9-40.9 116.9 40.9q0 118.7 0 156.4c0 37.8-37.5 77.1-116.9 129.1z"/>
+				</g>
+				<circle id="&lt;Path&gt;" class="s3 w4" cx="1167.8" cy="354.3" r="75.5"/>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s5 w3" d="m1167.8 569.2c-101-66.2-148.7-116.1-148.7-164.2q0-48 0-198.9l148.7-52.1 148.7 52.1q0 150.9 0 198.9c0 48.1-47.7 98-148.7 164.2z"/>
+				</g>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s5 w4" d="m1167.8 524.8c-79.4-52-116.9-91.3-116.9-129.1q0-37.7 0-156.4l116.9-40.9 116.9 40.9q0 118.7 0 156.4c0 37.8-37.5 77.1-116.9 129.1z"/>
+				</g>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s5 w1" d="m1120.8 354.2h94.1"/>
+					<path id="&lt;Path&gt;" class="s5 w1" d="m1167.8 401.2v-94"/>
+				</g>
+				<circle id="&lt;Path&gt;" class="s5" cx="1167.8" cy="354.3" r="75.5"/>
+			</g>
+		</g>
+	</g>
+</svg>

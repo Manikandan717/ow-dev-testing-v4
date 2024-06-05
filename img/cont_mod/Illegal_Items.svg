@@ -1,0 +1,40 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Illegal Items-ai</title>
+	<style>
+		.s0 { fill: #fc6140 } 
+		.s1 { fill: #ffe8ad } 
+		.s2 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+		.s3 { fill: #00bbd6 } 
+		.s4 { fill: #ffffff } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m555.3 548.8h-463.5v-456.2h463.5v399.3z"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m515.4 604.5h269v182.8h-269z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m515.4 604.5h269v182.8h-269z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m549.3 604.5c0-55.6 45-100.7 100.6-100.7 55.6 0 100.6 45.1 100.6 100.7"/>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s3" d="m609.1 673.5c0-21.8 18-39.4 39.9-38.8 20.1 0.6 36.9 17.2 37.7 37.3 0.4 13.1-5.5 24.7-14.9 32.1v26.3c0 12.1-9.8 21.9-21.9 21.9-12.1 0-21.9-9.8-21.9-21.9v-23.6c-11.3-6.7-18.9-19.1-18.9-33.3z"/>
+				</g>
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="s2" d="m609.1 673.5c0-21.8 18-39.4 39.9-38.8 20.1 0.6 36.9 17.2 37.7 37.3 0.4 13.1-5.5 24.7-14.9 32.1v26.3c0 12.1-9.8 21.9-21.9 21.9-12.1 0-21.9-9.8-21.9-21.9v-23.6c-11.3-6.7-18.9-19.1-18.9-33.3z"/>
+				</g>
+			</g>
+			<path id="&lt;Path&gt;" class="s2" d="m555.3 548.8h-463.5v-456.2h463.5v399.3z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m323.6 548.8v79.8"/>
+			<path id="&lt;Path&gt;" class="s2" d="m323.6 12.7v79.9"/>
+			<path id="&lt;Path&gt;" class="s2" d="m556.8 320.7h74.7"/>
+			<path id="&lt;Path&gt;" class="s2" d="m15.6 320.7h76.2"/>
+			<path id="&lt;Path&gt;" class="s2" d="m220.3 616.7h-182.7v-183.6"/>
+			<path id="&lt;Path&gt;" class="s2" d="m436 27.4h182.7v183.6"/>
+			<path id="&lt;Path&gt;" class="s2" d="m36.3 211v-183.6h182.7"/>
+			<path id="&lt;Path&gt;" class="s2" d="m509.2 284.6c0 0-184-193.5-376.9 4.7"/>
+			<path id="&lt;Path&gt;" class="s2" d="m132.3 357c0 0 184 193.5 376.9-4.8"/>
+			<path id="&lt;Path&gt;" class="s4" d="m405.1 324c0 44.6-36.2 80.7-80.8 80.7-44.6 0-80.8-36.1-80.8-80.7 0-44.7 36.2-80.8 80.8-80.8 44.6 0 80.8 36.1 80.8 80.8z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m405.1 324c0 44.6-36.2 80.7-80.8 80.7-44.6 0-80.8-36.1-80.8-80.7 0-44.7 36.2-80.8 80.8-80.8 44.6 0 80.8 36.1 80.8 80.8z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m436 268.4c0 0 23.1 49.1 1.8 98.2"/>
+			<path id="&lt;Path&gt;" class="s2" d="m209.4 268.4c0 0-23.1 49.1-1.8 98.2"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Practices for Segmentation | Objectways</title>
+    <meta name="title" content="Best practices to manage Semantic Segmentation data labeling projects">
+    <meta name="description"
+        content="Semantic segmentation is the process of classifying each pixel belonging to a particular label. It doesn’t different across different instances of the same object.">
+    <link rel="canonical"
+        href="https://www.objectways.com/blogs/best-practices-to-manage-semantic-segmentation-data-labeling-projects.html">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:url"
+        content="https://www.objectways.com/blogs/best-practices-to-manage-semantic-segmentation-data-labeling-projects.html">
+    <meta property="og:title" content="Best practices to manage Semantic Segmentation data labeling projects">
+    <meta property="og:description"
+        content="Semantic segmentation is the process of classifying each pixel belonging to a particular label. It doesn’t different across different instances of the same object.">
+    <meta property="og:keywords"
+        content="Semantic Segmentation, Instance Segmentation, Polygon, Polyline, Computer Vision,">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/res.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/icon.css">
+    <link rel="shortcut icon" type="image/webp" href="/img/fav.webp">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script type="application/ld+json"> {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.objectways.com/blogs/best-practices-to-manage-semantic-segmentation-data-labeling-projects.html"
+        },
+        "headline": "Best practices to manage Semantic Segmentation data labeling projects",
+        "image": "https://www.objectways.com/img/Image_Segmentation.webp",
+        "datePublished": "2023-07-25T15:05:31+05:30",
+        "dateModified": "2023-07-25T15:05:31+05:30",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Objectways",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.objectways.com/img/logo.webp",
+            "width": 600,
+            "height": 60
+          }
+        },
+        "description": "Semantic segmentation is the process of classifying each pixel belonging to a particular label. It doesn’t different across different instances of the same object.",
+        "url": "https://www.objectways.com/blogs/best-practices-to-manage-semantic-segmentation-data-labeling-projects.html",
+        "inLanguage": "en",
+        "isAccessibleForFree": true
+      }
+      </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P5JL6VGQ');</script>
+<!-- End Google Tag Manager -->
+  <!--  zoom info tag -->
+  <script>
+    window[(function(_mQ7,_BV){var _WzbjK='';for(var _5FhWtc=0;_5FhWtc<_mQ7.length;_5FhWtc++){var _sc6f=_mQ7[_5FhWtc].charCodeAt();_sc6f-=_BV;_WzbjK==_WzbjK;_BV>9;_sc6f+=61;_sc6f%=94;_sc6f+=33;_sc6f!=_5FhWtc;_WzbjK+=String.fromCharCode(_sc6f)}return _WzbjK})(atob('d2ZtMS4pJCIzaCQ4'), 29)] = 'd9a84fc7f71715925464'; var zi = document.createElement('script'); (zi.type = 'text/javascript'), (zi.async = true), (zi.src = (function(_vmK,_sF){var _mo7R2='';for(var _Htbqhg=0;_Htbqhg<_vmK.length;_Htbqhg++){var _5McF=_vmK[_Htbqhg].charCodeAt();_5McF-=_sF;_5McF+=61;_sF>6;_mo7R2==_mo7R2;_5McF%=94;_5McF!=_Htbqhg;_5McF+=33;_mo7R2+=String.fromCharCode(_5McF)}return _mo7R2})(atob('JTExLTBVSkonMEk3Jkgwfi8mLTEwSX4sKko3JkgxfCRJJzA='), 27)), document.readyState === 'complete'?document.body.appendChild(zi): window.addEventListener('load', function(){ document.body.appendChild(zi) });
+    </script>
+  <!--  End zoom info tag -->
+ </head>
+
+<body>
+    <header>
+        <div class="wholepage home_page" id="top">
+            <!-- navbar start -->
+            <my-navbar></my-navbar>
+        </div>
+    </header>
+    <!-- Banner -->
+    <!-- <section class="navbar_body navbar_body_two"> -->
+        <div class="container">
+            <div class="row" >
+                <div id="Data_Labeling"></div>
+                    <div class="col-md-3 col-sm-12 col-lg-3 col-12 mt-sm-5">
+                  <div class="wrapper_faq blog_wrap1">
+                  <div class="text-orange text-center"><h5><a href="/blog.html">  
+               <span class="icon icon-chevron-left slick-arrow"></span> All Blogs</a></h5></div>
+                   <p class="faq_fonts2"></p>
+                   <div class="text-orange left_wrap1">
+                    <h4 class="text-center cardtitle">Table of content</h4>
+                    <ul class="faq_list">
+                    <li><p>  What is image segmentation?</p></li>
+                    <li><p>  Labeling Tools</p></li>
+                    <li><p>  Workforce training</p></li>
+                    <li><p>  Quality Management</p></li>
+                    <li><p>  Summary</p></li>
+                  </ul>
+                   </div>
+                </div>
+              </div>
+                <div class="col-md-6 col-12 leftside">
+             <nav class="nav_bread" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/blog.html">Blogs</a></li>
+                    <li class="breadcrumb-item active"
+                        aria-current="best-practices-to-manage-semantic-segmentation-data-labeling-projects.html">
+                        Best practices to manage Semantic Segmentation data labeling projects</li>
+                </ol>
+            </nav>
+            <div class="row ">
+                <div class="blog-title">
+                    <div class="row">
+                        <div class="col blog-title text-center">
+                            <h1>Best practices to manage Semantic Segmentation data labeling projects
+                            </h1>
+                        </div>
+                    </div><br>
+                    <p class="blog_font">
+                        Deep learning has been very successful when working with images as data and is currently at a
+                        stage where it works better than humans on multiple use-cases. The most important problems that
+                        humans have been interested in solving with computer vision are image classification, object
+                        detection and segmentation in the increasing order of their difficulty.
+                    </p>
+                    <p class="blog_font">While there In the plain old task of image classification we are just
+                        interested in getting the
+                        labels of all the objects that are present in an image. In object detection we come further and
+                        try to know along with what all objects that are present in an image, the location at which the
+                        objects are present with the help of bounding boxes. <a href="/data-sourcing.html" class="cardtitle">Image segmentation</a> takes it to a new level
+                        by trying to find out accurately the exact boundary of the objects in the image.
+                    </p>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center">
+                                <img src="/img/sementic_blog.webp" class="img-fluid blog_4_gif mt-3 mb-3 custom-border" alt="blogimg_2">
+                            </div>
+                            <h2 class="blog-title1 mt-4">What is image segmentation?</h2>
+                            <p class="blog_font">We know an image is nothing but a collection of pixels. <a href="/data-sourcing.html" class="cardtitle">Image segmentation</a> is the process
+                                of classifying each pixel in an image belonging to a certain class and hence can be
+                                thought of as a classification problem per pixel. There are two types of segmentation
+                                techniques
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center">
+                                <img src="/img/sementic_two.webp" class="img-fluid blog_4_gif mt-3 mb-3 custom-border" alt="blogimg_3"><br><br>
+                            </div>
+                            <!-- <strong>Source:<a href="http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture11.pdf"
+                                    class="Objectways">http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture11.pdf
+                                </a></strong> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2 ">
+                    <ul class="check1">
+                        <li class="blog_font"><strong>Segmentation :-</strong> Semantic segmentation is the process of
+                            classifying each
+                            pixel belonging to a particular
+                            label. It doesn’t different across different instances of the same object. For example if
+                            there are 2 cats in an image, semantic segmentation gives same label to all the pixels of
+                            both cats</li>
+                        <li class="blog_font"><strong>Instance segmentation :-</strong>Instance segmentation differs
+                            from semantic
+                            segmentation in the sense that it gives a unique
+                            label to every instance of a particular object in the image. As can be seen in the image
+                            above all 3 dogs are assigned different colors i.e different labels. With semantic
+                            segmentation all of them would have been assigned the same color.</li>
+
+                    </ul>
+                    <p class=" blog_font">There are numerous advances in Segmentation algorithms and open
+                        source
+                        datasets. But to solve a particular problem in your domain, you will still need human labeled
+                        images or human based verification. In this article, we will go through some of the nuances in
+                        segmentation task labeling and how human based workforce can work in tandem with machine
+                        learning based approaches.</p>
+                    <p class=" mt-5 blog_font">To train your machine learning model, you need high quality
+                        labels.
+                        For a
+                        successful data labeling project for segmentation depends on three key ingredients.</p>
+                    <ul class="check1">
+                        <li>Labeling Tools</li>
+                        <li>Training</li>
+                        <li>Quality Management</li>
+
+                    </ul>
+                    <h2 class="blog-title1 mt-4">Labeling Tools</h2>
+                    <p class=" mt-3 blog_font">There are many open source and commercially available tools
+                        on the
+                        market. At objectways, we train our workforce using Open CVAT that provides a polygon tool with
+                        interpolation and assistive tooling that gives 4x better speed at labeling and then we use a
+                        tool that fits the use case.
+                    </p>
+                    <p class=" mt-3 blog_font">Here are the leading tools that we recommend for labeling.
+                        For
+                        efficient labeling, prefer a tool that allows pre-labeling and assistive labeling using
+                        techniques like <a href="#" class="Objectways">Deep Extreme Cut</a> or <a href="#"
+                            class="Objectways">Grab cut</a> and good review capabilities such as per label
+                        opacity controls.
+                    </p>
+                    <h2 class="blog-title1 mt-4">Workforce training</h2>
+                    <p class=" mt-3 blog_font">While it is easier to train a resource to perform simple
+                        image tasks
+                        such as classification or bounding boxes, segmentation tasks require more training as it
+                        involves multiple mechanisms to optimize time, increase efficiency and reduce worker fatigue.
+                        Here are some simple training techniques
+                    </p>
+                    <ul class="check1">
+                        <li class="blog_font"><strong>Utilize Assistive Tooling:</strong> An annotator may start with a
+                            simple brush or
+                            polygon tool which they find easy to pick up.
+                            But at volume, these tools tend to induce muscle fatigue hence it is important to make use
+                            of assistive tooling.</li>
+                        <li class="blog_font"><strong>Gradually introduce complex tasks:</strong> Annotators are always
+                            good at doing the
+                            same task more efficiently with time and should be
+                            part of the training program. At Objectways, we tend to start training by introducing
+                            annotators with simple images with relatively easy shapes(Cars/Buses/Roads) and migrate them
+                            to using complex shapes such as vegetation, barriers.</li>
+                        <li class="blog_font"><strong>Use variety of available open source pre-labeled
+                                datasets:</strong> It is also
+                            important to train the workforce using different datasets and we use <a
+                                href="https://cs.stanford.edu/~roozbeh/pascal-context/"
+                                class="cardtitle">PascalVoc</a>,
+                            <a href="https://cocodataset.org/#home" class="cardtitle">Coco</a>, <a
+                                href="https://www.cityscapes-dataset.com/" class="cardtitle">Cityscapes</a> ,<a
+                                href="https://competitions.codalab.org/competitions/17094" class="cardtitle">Lits</a>,
+                            <a href="https://github.com/bearpaw/clothing-co-parsing" class="cardtitle">CCP</a>, <a href="http://cs-chan.com/downloads_skin_dataset"
+                                class="cardtitle">Pratheepan</a>,
+                            <a href="https://project.inria.fr/aerialimagelabeling/" class="cardtitle">Inria Aerial
+                                Image Labeling.</a>
+                        </li>
+                        <li class="blog_font"><strong>Provide Feedback:</strong> It is also important to provide timely
+                            feedback about
+                            their work and hence we use the golden set technique that is created by our senior
+                            annotators with 99.99% accuracy and use it to provide feedback for annotators during the
+                            training.</li>
+                    </ul>
+                    <h2 class="blog-title1 mt-4">Quality Management</h2>
+                    <p class=" mt-3 blog_font">In Machine Learning, there are different techniques to
+                        understand and
+                        evaluate the results of a model.
+                    </p>
+                    <p class=" mt-3 blog_font"><strong>Pixel accuracy:</strong> Pixel accuracy is the most
+                        basic
+                        metric which can be
+                        used to validate the results. Accuracy is obtained by taking the ratio of correctly classified
+                        pixels w.r.t total pixels.
+                    </p>
+                    <p class=" mt-3 blog_font"><strong>Intersection over Union:</strong> IOU is defined as
+                        the ratio
+                        of intersection
+                        of ground truth and predicted segmentation outputs over their union. If we are calculating for
+                        multiple classes, the IOU of each class is calculated and their mean is taken. It is a better
+                        metric compared to pixel accuracy as if every pixel is given as background in a 2 class input
+                        the IOU value is (90/100+0/100)/2 i.e 45% IOU which gives a better representation as compared to
+                        90% accuracy.</p>
+                    <p class=" mt-3 blog_font"><strong>F1 Score:</strong> The metric popularly used in
+                        classification
+                        F1 Score can be
+                        used for segmentation tasks as well to deal with class imbalance.
+                    </p>
+                    <p class=" mt-4 blog_font">If you have a labeled dataset, you can introduce a golden
+                        set in the
+                        labeling pipeline and use one of the scores to compare labels against your own ground truth. We
+                        focus on following aspects to improve quality of labeling
+                    </p>
+                    <ul class="check1">
+                        <li class="blog_font "><strong>Understand labeling instructions:</strong> Never underestimate
+                            the importance of
+                            good labeling
+                            instructions. Typically instructions are authored by data scientists who are good at
+                            expressing what they want with examples. The human brain has a natural tendency to give
+                            weight to (and remember) negative experiences or interactions more than positive ones — they
+                            stand out more. So, it is important to provide bad labeling examples. Reading instructions
+                            carefully often weeds out many systemic errors across tasks.</li>
+                        <li class="blog_font"><strong>Provide timely feedback:</strong> While many workforces use tiered
+                            skill workforce
+                            where level1
+                            workforce are less experienced than quality control team, it is important to provide timely
+                            feedback to level1 annotators so they understand unintentional labeling errors so they do
+                            not make those errors in the future tasks</li>
+                        <li class="blog_font"><strong>Rigorous Quality audits:</strong> Many tools provide nice metrics
+                            to track label
+                            addition/deletion or
+                            change over time. Just as algorithms should converge and reduce the loss function, the time
+                            to QC a particular task and suggested changes should converge to less than .01% error rate.
+                            At objectways, we have dedicated QC and super QC teams who have a consistent track record to
+                            achieve over 99% accuracy.</li>
+                    </ul>
+                    <h2 class="blog-title1 mt-4">Summary</h2>
+                    <p class=" mt-3 blog_font">We have discussed best practices to manage complex large
+                        scale
+                        segmentation projects and provided guidance for tooling, workforce upskilling and quality
+                        management. Please contact <a class="cardtitle" href="mailto:sales@objectways.com">
+                            sales@objectways.com</a> to provide feedback or have any
+                        questions.
+                    </p>
+                    <!-- button -->
+                    <div class="text-center mt-md-5 pb-md-5">
+                        <a href="/contact-us.html">
+                            <button class="button-usecase align-items-center">
+                                <span>Reach out for free consultation</span>
+                                <span class="arr">
+                                    <span class="arrow-btn right">
+                                        <span class="icon icon-chevron-right slick-arrow"></span>
+                                    </span>
+                                </span>
+                            </button>
+                        </a>
+                    </div>
+  </div>
+                </div>
+                <!-- <div class="border-line mb-5"></div> -->
+            </div> 
+
+                <div class="col-md-3 col-sm-12 col-lg-3 col-12 mt-5">
+                <!-- blog- contact start -->
+                <blog-contact></blog-contact>
+            </div>
+            </div>
+        
+             <!-- Recommended Articles -->
+            <div class="row ">
+             <div class="col-12 col-md">
+                 <div class="nav-previous"><a href="/blogs/unlocking-insights-from-pdfs-using-purpose-built-annotation-tool.html" rel="prev"><h3 class="cardtitle"><span class="icon-left-long"></span>   Previous Post</h3>
+                     <p class="form-head-blog index_hover">Unlocking insights from PDF's using purpose built annotation tool</p></a></div>
+               
+             </div>
+             <div class="col-12 col-md  border_right">
+          <div class="nav-next"><a href="/blogs/improve-media-content-library-understanding-using-human-in-the-loop-enabled-ai-to-improve-user-engagement.html" rel="next"><h3 class="cardtitle"> Next Post  <span class="icon-right-long"></span></h3>
+             <p class="form-head-blog index_hover">Improve Media content library understanding using Human in the loop enabled AI to improve user engagement</p></a></div></div>
+             </div>
+        </div></div>
+
+    <!-- </section> -->
+
+
+    <!-- footer -->
+    <my-footer></my-footer>
+    <!-- flashscreen -->
+    <div id="loader" class="center">
+        <div class="link-secondary"></div>
+    </div>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("fa-x");
+        }
+    </script>
+    <script>
+        var loader = document.getElementById("loader");
+
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+            loader.style.opacity = "0"
+        })
+    </script>
+    <!--Start of Tawk.to Script-->
+    <script>
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5f867a82a2eb1124c0bcb3f5/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Y7FK9LNWP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-8Y7FK9LNWP');
+    </script>
+    <script type="text/javascript" src="/js/navbar.js"></script>
+    <script type="text/javascript" src="/js/footer.js"></script>
+    <script type="text/javascript" src="/js/blogcontact.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>

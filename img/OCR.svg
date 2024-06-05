@@ -1,0 +1,30 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>OCR-ai</title>
+	<style>
+		.s0 { fill: #ffd740 } 
+		.s1 { fill: #ffffff } 
+		.s2 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+		.s3 { fill: #fc6140 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m653.7 244.5v409.2h-507.4v-507.4h404"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m298.8 653.7l54-156.5-78-97.2 87.1-160.6h38.1 38.1l87.1 160.6-78 97.2 54 156.5"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s2" d="m653.7 244.5v409.2h-507.4v-507.4h404"/>
+			<path id="&lt;Path&gt;" class="s2" d="m400 239.4h38.1l87.1 160.6-78 97.2 54 156.5"/>
+			<path id="&lt;Path&gt;" class="s2" d="m298.8 653.7l54-156.5-78-97.2 87.1-160.6h38.1"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s2" d="m298.8 653.7l54-156.5-78-97.2 87.1-160.6h38.1 38.1l87.1 160.6-78 97.2 54 156.5"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s2" d="m447.2 497.2h-94.4"/>
+			<circle id="&lt;Path&gt;" class="s3" cx="400" cy="389.4" r="42.5"/>
+			<circle id="&lt;Path&gt;" class="s2" cx="400" cy="389.4" r="42.5"/>
+			<path id="&lt;Path&gt;" class="s2" d="m400 239.4v107.5"/>
+			<path id="&lt;Path&gt;" class="s2" d="m550.2 244.5v-98.2l103.5 98.2z"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,27 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Discovery _ Consultation-ai</title>
+	<style>
+		.s0 { fill: #fff8e1 } 
+		.s1 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 5.2 } 
+		.s2 { fill: #fc6140 } 
+		.s3 { fill: #ffe8ad } 
+		.s4 { fill: #00bbd6 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m751.9 400c0 194.4-157.5 351.9-351.9 351.9-194.4 0-351.9-157.5-351.9-351.9 0-194.4 157.5-351.9 351.9-351.9 194.4 0 351.9 157.5 351.9 351.9z"/>
+				<path id="&lt;Path&gt;" class="s1" d="m751.9 400c0 194.4-157.5 351.9-351.9 351.9-194.4 0-351.9-157.5-351.9-351.9 0-194.4 157.5-351.9 351.9-351.9 194.4 0 351.9 157.5 351.9 351.9z"/>
+			</g>
+			<path id="&lt;Path&gt;" class="s2" d="m182.1 582.1v-38.3h-19.4c-9.5 0-17.3-7.7-17.3-17.3v-142.7c0-9.6 7.8-17.3 17.3-17.3h237.5c9.6 0 17.4 7.7 17.4 17.3v139.8c0 9.6-7.8 17.4-17.4 17.4h-176.6z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m182.1 582.1v-38.3h-19.4c-9.5 0-17.3-7.7-17.3-17.3v-142.7c0-9.6 7.8-17.3 17.3-17.3h237.5c9.6 0 17.4 7.7 17.4 17.3v139.8c0 9.6-7.8 17.4-17.4 17.4h-176.6z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m524.6 455.6h-244.3c-13.2 0-23.9-10.7-23.9-24v-193.3c0-13.2 10.7-24 23.9-24h328.4c13.2 0 24 10.8 24 24v197.3c0 13.2-10.8 24-24 24h-26.7v52.9z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m524.6 455.6h-244.3c-13.2 0-23.9-10.7-23.9-24v-193.3c0-13.2 10.7-24 23.9-24h328.4c13.2 0 24 10.8 24 24v197.3c0 13.2-10.8 24-24 24h-26.7v52.9z"/>
+			<path id="&lt;Path&gt;" class="s4" d="m302.4 258.6h287.3v159.2h-287.3z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m302.4 258.6h287.3v159.2h-287.3z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m476.6 319.5v38.4"/>
+			<path id="&lt;Path&gt;" class="s1" d="m434 319.5v38.4"/>
+			<path id="&lt;Path&gt;" class="s1" d="m391.3 319.5v38.4"/>
+		</g>
+	</g>
+</svg>
