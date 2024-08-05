@@ -12,10 +12,10 @@
         font-size: 20px;
     }
     .blog-title>h1 {
-        font: 400 36px/1.22 'Zilla Slab',serif!important;
+        font: 400 36px/1.22 'Josefin Sans',serif!important;
     }
     .footer-title > h2 {
-        font: 400 33px/1.5 "Zilla Slab", serif;
+        font: 400 33px/1.5 "Josefin Sans", serif;
     }
     .social-icons-2 {
         padding-top: 20px;
@@ -35,7 +35,7 @@
         margin-top: 45px;
     }
     .case-title-data > h2 {
-        font: 500 34px/1.22 "Zilla Slab", serif;
+        font: 500 34px/1.22 "Josefin Sans", serif;
     }
     .usecasetitle {
         padding-top: 0;
@@ -47,7 +47,7 @@
         position: absolute;
     }
     .usecase-text li p {
-        font: 500 20px/1.8 "Zilla Slab", serif;
+        font: 500 20px/1.8 "Josefin Sans", serif;
     }
     .mc {
         display: flex;
@@ -72,11 +72,11 @@
         text-align: center !important;
     }
     .data-title1 {
-        font: 400 38px/1.22 "Zilla Slab", serif;
+        font: 400 38px/1.22 "Josefin Sans", serif;
     }
     .data-title,
     h2 {
-        font: 400 40px/1.22 "Zilla Slab", serif;
+        font: 400 40px/1.22 "Josefin Sans", serif;
     }
     .security-content1 {
         padding: 0;
@@ -118,7 +118,7 @@
         left: 0;
     }
     .certification-font {
-        font: 500 50px/1.22 "Zilla Slab", serif;
+        font: 500 50px/1.22 "Josefin Sans", serif;
         margin-top: 70px !important;
         text-align: center !important;
     }
@@ -143,7 +143,7 @@
         margin: 0;
     }
     .home-title > h1 {
-        font: 400 50px/1.22 "Zilla Slab", serif !important;
+        font: 400 50px/1.22 "Josefin Sans", serif !important;
     }
     .content-banner {
         width: 355px;
@@ -154,7 +154,7 @@
         height: 325px;
     }
     .relax-text > h2 {
-        font: 400 44px/1.22 "Zilla Slab", serif;
+        font: 400 44px/1.22 "Josefin Sans", serif;
         text-align: center;
     }
     .customer,
@@ -223,7 +223,7 @@
         height: auto;
     }
     .bespoke-text > h2 {
-        font: 400 33px/1 "Zilla Slab", serif;
+        font: 400 33px/1 "Josefin Sans", serif;
     }
     .row-reverse {
         display: flex;
@@ -268,7 +268,7 @@
         top: 15px;
     }
     .contact-title > h2 {
-        font: 400 24px/1.22 "Zilla Slab", serif;
+        font: 400 24px/1.22 "Josefin Sans", serif;
     }
     .form-box {
         margin: 0 0 40px;
@@ -278,10 +278,17 @@
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+.cert-footer {
+        width: 60px;  /* Adjust width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .sm_h{
+        display: none!important;
+    }
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
     .case-title-data > h2 {
-        font: 500 40px/1.22 "Zilla Slab", serif;
+        font: 500 40px/1.22 "Josefin Sans", serif;
     }
     .m-top {
         margin-top: 50px;
@@ -314,7 +321,7 @@
         height: 173px;
     }
     .data-title1 {
-        font: 400 50px/1.22 "Zilla Slab", serif;
+        font: 400 50px/1.22 "Josefin Sans", serif;
     }
     .security-content1 {
         padding: 0;
@@ -324,10 +331,10 @@
         display: flex;
         padding: 0;
         justify-content: flex-start;
-        font: 400 19px/2 "Zilla Slab", sans-serif;
+        font: 400 19px/2 "Josefin Sans", sans-serif;
     }
     h2 {
-        font: 400 45px/1.22 "Zilla Slab", serif;
+        font: 400 45px/1.22 "Josefin Sans", serif;
     }
     .ourculture {
         display: none;
@@ -339,7 +346,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .case-title-data > h2 {
-        font: 500 50px/1.22 "Zilla Slab", serif;
+        font: 500 50px/1.22 "Josefin Sans", serif;
     }
     .usecase-text > li > h2 {
         color: #fc6140;
@@ -440,7 +447,7 @@
         height: auto;
     }
     .relax-text > h2 {
-        font: 400 44px/1.22 "Zilla Slab", serif;
+        font: 400 44px/1.22 "Josefin Sans", serif;
         text-align: center;
     }
     .mob-center {
@@ -528,7 +535,7 @@
         margin: 48px 0 20px;
     }
     .data-title {
-        font: 400 45px/1.22 "Zilla Slab", serif;
+        font: 400 45px/1.22 "Josefin Sans", serif;
     }
     .card-img-bespoke {
         width: 100%;
@@ -568,7 +575,7 @@
         height: auto;
     }
     .relax-text > h2 {
-        font: 400 44px/1.22 "Zilla Slab", serif;
+        font: 400 44px/1.22 "Josefin Sans", serif;
         text-align: center;
     }
     .mob-center {
@@ -658,7 +665,7 @@
         left: -40px;
     }
     .data-title1 {
-        font: 400 40px/1.22 "Zilla Slab", serif;
+        font: 400 40px/1.22 "Josefin Sans", serif;
     }
     .card-img-cont {
         width: 675px;
@@ -681,7 +688,7 @@
         height: auto;
     }
     .data-title1 {
-        font: 400 45px/1.22 "Zilla Slab", serif;
+        font: 400 45px/1.22 "Josefin Sans", serif;
     }
     .content-text {
         padding: 0;
@@ -717,7 +724,7 @@
         height: auto;
     }
     .data-title1 {
-        font: 400 54px/1.22 "Zilla Slab", serif;
+        font: 400 54px/1.22 "Josefin Sans", serif;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -740,7 +747,7 @@
         margin: 48px 0 20px;
     }
     .data-title {
-        font: 400 60px/1.22 "Zilla Slab", serif;
+        font: 400 60px/1.22 "Josefin Sans", serif;
     }
     .labeling-banner {
         width: 580px;
@@ -765,7 +772,7 @@
         margin: 0 0 40px;
     }
     .contact-title > h2 {
-        font: 400 45px/1.22 "Zilla Slab", serif;
+        font: 400 45px/1.22 "Josefin Sans", serif;
     }
     .md {
         justify-content: center !important;
@@ -777,20 +784,20 @@
         background-color: #ffd740;
     }
     .bespoke-text > h2 {
-        font: 400 43px/1.22 "Zilla Slab", serif;
+        font: 400 43px/1.22 "Josefin Sans", serif;
     }
     .labeling-banner {
         width: 390px;
         height: auto;
     }
     .data-title {
-        font: 400 53px/1.22 "Zilla Slab", serif;
+        font: 400 53px/1.22 "Josefin Sans", serif;
     }
     .contact-title {
         padding-bottom: 20px;
     }
     .contact-title > h2 {
-        font: 400 45px/1.22 "Zilla Slab", serif;
+        font: 400 45px/1.22 "Josefin Sans", serif;
     }
     .md {
         display: flex;
@@ -853,7 +860,7 @@
         max-width: 297px;
     }
     .txt > blockquote {
-        font: italic 400 18px/1.62 "Zilla Slab", serif;
+        font: italic 400 18px/1.62 "Josefin Sans", serif;
     }
     .heart {
         width: 41px;
@@ -867,11 +874,11 @@
     }
     .index-card,
     h3 {
-        font: 500 24px/1.38 "Zilla Slab", serif;
+        font: 500 24px/1.38 "Josefin Sans", serif;
     }
     .chart-text > h2,
     h2 {
-        font: 400 38px/1.22 "Zilla Slab", serif;
+        font: 400 38px/1.22 "Josefin Sans", serif;
     }
     .cen {
         display: flex;
@@ -885,7 +892,7 @@
         margin-top: 117px;
     }
     .home-title > h1 {
-        font: 400 38px/1 "Zilla Slab", serif !important;
+        font: 400 38px/1 "Josefin Sans", serif !important;
     }
     .home-title {
         margin: 0 auto;
@@ -937,7 +944,7 @@
     }
     .case-title > h2,
     .sol-title > h2 {
-        font: 400 31px/1.22 "Zilla Slab", serif;
+        font: 400 31px/1.22 "Josefin Sans", serif;
     }
     .tab-content > div > video {
         width: 330px;
@@ -952,7 +959,7 @@
         border-radius: 0.2em;
         background: var(--orange);
         color: var(--white);
-        font: 400 16px/1.125 Inter, sans-serif !important;
+        font: 400 16px/1.125 "Montserrat", sans-serif !important;
     }
     @keyframes moving {
         0% {
@@ -967,16 +974,16 @@
         height: auto;
     }
     .empower-title > h2 {
-        font: 400 27px/1.22 "Zilla Slab", serif;
+        font: 400 27px/1.22 "Josefin Sans", serif;
     }
     .chart-img {
         width: 24em;
     }
     .pad-top > h2 {
-        font: 400 25px/1.22 "Zilla Slab", serif;
+        font: 400 25px/1.22 "Josefin Sans", serif;
     }
     .location-text > h2 {
-        font: 400 40px/1.22 "Zilla Slab", serif;
+        font: 400 40px/1.22 "Josefin Sans", serif;
     }
     .pad-top {
         padding: 70px 20px;
@@ -1018,7 +1025,7 @@
         width: 22em;
     }
     .current-open-grid-1 > h3 {
-        font: 400 19px/1.38 "Zilla Slab", serif;
+        font: 400 19px/1.38 "Josefin Sans", serif;
     }
     .computer1 .screen-wrap1 .screen1 {
         position: absolute;
@@ -1037,11 +1044,11 @@
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
     .home-title > h1 {
-        font: 400 40px/1.22 "Zilla Slab", serif !important;
+        font: 400 40px/1.22 "Josefin Sans", serif !important;
     }
     .case-title > h2,
     .sol-title > h2 {
-        font: 400 35px/1.22 "Zilla Slab", serif;
+        font: 400 35px/1.22 "Josefin Sans", serif;
     }
     .cen {
         display: flex;
@@ -1058,7 +1065,7 @@
         border-radius: 0.2em;
         background: var(--orange);
         color: var(--white);
-        font: 400 16px/1.125 Inter, sans-serif !important;
+        font: 400 16px/1.125 "Montserrat", sans-serif !important;
     }
     @keyframes moving {
         0% {
@@ -1083,13 +1090,13 @@
         width: 35em;
     }
     .pad-top > h2 {
-        font: 400 32px/1.22 "Zilla Slab", serif;
+        font: 400 32px/1.22 "Josefin Sans", serif;
     }
     .location-text > h2 {
-        font: 400 43px/1.22 "Zilla Slab", serif;
+        font: 400 43px/1.22 "Josefin Sans", serif;
     }
     .chart-text > h2 {
-        font: 400 40px/1.22 "Zilla Slab", serif;
+        font: 400 40px/1.22 "Josefin Sans", serif;
     }
     .pad-top {
         padding: 70px 0;
@@ -1125,7 +1132,7 @@
     .case-title > h2,
     .location-text > h2,
     .sol-title > h2 {
-        font: 400 43px/1.22 "Zilla Slab", serif;
+        font: 400 43px/1.22 "Josefin Sans", serif;
     }
     .about-banner {
         width: 425px;
@@ -1136,10 +1143,10 @@
         width: 35em;
     }
     .pad-top > h2 {
-        font: 400 32px/1.22 "Zilla Slab", serif;
+        font: 400 32px/1.22 "Josefin Sans", serif;
     }
     .chart-text > h2 {
-        font: 400 40px/1.22 "Zilla Slab", serif;
+        font: 400 40px/1.22 "Josefin Sans", serif;
     }
     .pad-top {
         padding: 70px 0;
@@ -1157,14 +1164,14 @@
     }
     .case-title > h2,
     .sol-title > h2 {
-        font: 400 55px/1.22 "Zilla Slab", serif;
+        font: 400 55px/1.22 "Josefin Sans", serif;
     }
     .about-banner {
         width: 425px;
         height: auto;
     }
     .at_objectways {
-        font: 400 85px/1.22 "Zilla Slab", serif;
+        font: 400 85px/1.22 "Josefin Sans", serif;
     }
     .chart-img,
     .loc-img {
@@ -1172,10 +1179,10 @@
     }
     .location-text > h2,
     .pad-top > h2 {
-        font: 400 43px/1.22 "Zilla Slab", serif;
+        font: 400 43px/1.22 "Josefin Sans", serif;
     }
     .chart-text > h2 {
-        font: 400 40px/1.22 "Zilla Slab", serif;
+        font: 400 40px/1.22 "Josefin Sans", serif;
     }
     .pad-top {
         padding: 70px 0;
@@ -1193,7 +1200,7 @@
     }
     .case-title > h2,
     .sol-title > h2 {
-        font: 400 55px/1.22 "Zilla Slab", serif;
+        font: 400 55px/1.22 "Josefin Sans", serif;
     }
     .about-banner {
         width: 442px;
@@ -1204,12 +1211,12 @@
         width: 37em;
     }
     .at_objectways {
-        font: 400 85px/1.22 "Zilla Slab", serif;
+        font: 400 85px/1.22 "Josefin Sans", serif;
     }
     .chart-text > h2,
     .location-text > h2,
     .pad-top > h2 {
-        font: 400 43px/1.22 "Zilla Slab", serif;
+        font: 400 43px/1.22 "Josefin Sans", serif;
     }
     .pad-top {
         padding: 70px 0;
@@ -1230,10 +1237,10 @@
         width: 42em;
     }
     .at_objectways {
-        font: 400 85px/1.22 "Zilla Slab", serif;
+        font: 400 85px/1.22 "Josefin Sans", serif;
     }
     .pad-top > h2 {
-        font: 400 50px/1.22 "Zilla Slab", serif;
+        font: 400 50px/1.22 "Josefin Sans", serif;
     }
     .pad-top {
         padding: 70px 0;
@@ -1248,7 +1255,7 @@
         display: inline-flex;
         padding: 12px;
         border-radius: 10px;
-        background-color: #ff7043;
+        background-color: #3659EB;
         color: #fff;
         font-size: 20px;
         line-height: 1;
@@ -1266,7 +1273,7 @@
         color: var(--purple);
     }
     .card-title, .title-1>h3, h3 {
-        font: 400 20px/1.38 'Zilla Slab',serif;
+        font: 300 25px/1.38 'Josefin Sans',serif;
     }
 }
 @media screen and (min-width: 1400px) {
@@ -1277,7 +1284,7 @@
         width: 60em;
     }
     .at_objectways {
-        font: 400 85px/1.22 "Zilla Slab", serif;
+        font: 400 85px/1.22 "Josefin Sans", serif;
     }
 }
 .Close,
@@ -1286,7 +1293,7 @@
 }
 @media screen and (max-width: 481px) {
     .Modal_Content_two {
-        font: 400 26px/1.38 "Zilla Slab", serif;
+        font: 400 26px/1.38 "Josefin Sans", serif;
         position: fixed;
         text-align: start !important;
         top: 25% !important;
@@ -1329,7 +1336,7 @@
     }
     .hiring {
         font-size: 55px !important;
-        font-family: Inter, sans-serif;
+        font-family: "Montserrat", sans-serif;
         margin-left: 3%;
     }
     .home {
@@ -1349,7 +1356,7 @@
         width: 24em;
     }
     .current-open-grid-1 > h3 {
-        font: 400 21px/1.38 "Zilla Slab", serif;
+        font: 400 21px/1.38 "Josefin Sans", serif;
     }
     .sizer1 {
         width: 100%;
@@ -1379,7 +1386,7 @@
     }
     .hiring {
         font-size: 70px !important;
-        font-family: Inter, sans-serif;
+        font-family: "Montserrat", sans-serif;
         margin-left: 3%;
     }
 }
@@ -1474,7 +1481,7 @@
 }
 @media screen and (min-width: 990px) and (max-width: 1200px) {
     .certification-title {
-        font: 500 50px/1.22 "Zilla Slab", serif;
+        font: 500 50px/1.22 "Josefin Sans", serif;
         margin-top: 30px !important;
     }
     .certification_para {
@@ -1504,7 +1511,7 @@
     }
     .hiring {
         font-size: 140px !important;
-        font-family: Inter, sans-serif;
+        font-family: "Montserrat", sans-serif;
         margin-left: 2%;
     }
 }
@@ -1521,7 +1528,7 @@
     }
     .hiring {
         font-size: 170px !important;
-        font-family: Inter, sans-serif;
+        font-family: "Montserrat", sans-serif;
         margin-left: 2%;
     }
 }
@@ -1544,7 +1551,7 @@
     }
     .hiring {
         font-size: 100px !important;
-        font-family: Inter, sans-serif;
+        font-family: "Montserrat", sans-serif;
         margin-left: 2%;
     }
     .get {
@@ -1581,7 +1588,7 @@
 }
 .hiring {
     font-size: 175px;  /* font-size: 235px; */
-    font-family: "Zilla Slab", serif;
+    font-family: "Josefin Sans", serif;
     /* margin-left: 2%; */
 }
 .map {
@@ -1612,7 +1619,7 @@
     overflow-x: hidden;
 }
 .Modal_Content_two {
-    font: 400 26px/1.38 "Zilla Slab", serif;
+    font: 400 26px/1.38 "Josefin Sans", serif;
     text-align: start !important;
     top: 25% !important;
     border-radius: 10px;
@@ -1622,8 +1629,7 @@
     margin-bottom: 20px !important;
     box-shadow: 10px 10px 5000px 0 #fff;
 }
-.accordion-button,
-.accordion-item,
+
 .blanket,
 .social-color {
     background-color: #fff;
@@ -1701,7 +1707,7 @@
 }
 .Impact-Sourcing {
     padding-top: 15px;
-    font: 500 19px/1.2 "Zilla Slab", sans-serif;
+    font: 500 19px/1.2 "Josefin Sans", sans-serif;
 }
 .Working-together {
     padding-top: 2%;
@@ -1745,14 +1751,14 @@
     font-size: 37px;
 }
 .Blog_font {
-    font: 500 60px/1.22 "Zilla Slab", serif !important;
+    font: 500 60px/1.22 "Josefin Sans", serif !important;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 .Blog_link,
 .accordion-body,
 .faq_fonts2 {
-    font-family: "Zilla Slab", serif !important;
+    font-family: "Josefin Sans", serif !important;
 }
 .Blog_link {
     font-size: 20px;
@@ -1766,8 +1772,8 @@
     border: none !important;
 }
 .accordion-button:not(.collapsed) {
-    color: #fff;
-    /* background-color: #fff; */
+    color: #000;
+    background-color: red;
     box-shadow: none !important;
     background-color: var(--orange);
     border-radius: 7px;
@@ -1781,30 +1787,7 @@
 .accordion-item {
     border: none;
 }
-.accordion-button::after {
-    flex-shrink: 0;
-    content: "";
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAA9CAMAAAA53N8HAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAPZQTFRF//////j2/b+t/Ilm+3pU+3VN/JBw/tPH//38/tvQ+4Bc+3JJ+4Ne/s/B//7+/trP+3pT+3NK/KSK//v6/Jd5/JV2//Pv//Ds/IVh/I9v//bz/sy9/ci4/ufg//v5/bij//Pw+3ZP/Jt//uni/Ihl/s2++3tV/cSz+3RM/Jx//JV3/J2B/uzn/I1s/aeO/t7V/bCZ/tfM+35Z/bWg/ce3+3hR/ubf/tfL/aqR+4Fd/JJy+31X/uPb/u3o+4Rg/J6C/I5t//Xy+3dP/tLE+4Je/IZj/unj/a6X/Itp/su8/u3n/a+Y/ube+35Y/KKH/KGG/cW1/+/qOd33NgAAAcFJREFUeJztlttagkAURqGig2MIWFaampVimWVpmp3TDnau93+ZDEhnb2ZgcPr6umBd6mbNzM+PoigxMTEx/xF1anpGm52bl/UsJIhDclGX8qQM4mFaqoQnvUTGLGcmF62sUiKyFmLK5tbzBc53RVPYtGGVhiPa5hZ7S9u0KOB0ernizZRs5oBdBaYdTuKqNd66kWJNFHaBiNSYIezV6Zl95loHFSAyG4w+HR7BbbN3DfMmWhOb9NYxnCizRfhwGgpTb2rhe3ZoJ6DJ6IB1TuCOOSk62HBJ0s1THgt56gFdK9TgLDkdlcC3n7NzvkdRLi7htFn8yaeBPDhATMeA84k228MPmrfyVfr7Yxweub4J9vg70OuzPPRd4JHv+vLG53XtofR74KKqjdXhAbngmG7vkCeoiQD1FF8JSd6LefwxQeCDE0wL3yWKsCYC9Ae+yC2WKJk6zxP0qLLwVcdDpIkA36PiBdSK6BkebsDwCDYRggruINpEAHgbcBlM9k7wWEWeKE2keUqioKM0EfAsH7TLy6t00IwtRW00gPpPYb94CDP6FZg8aBf9TTpoD+9XQCZoj+y7KRn0iEzu4/M3PH/LF1dnRSU6HeO3AAAAAElFTkSuQmCC) !important;
-    transition: transform 0.2s ease-in-out;
-    flex-shrink: 0;
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-left: auto;
-    content: "";
-    background-repeat: no-repeat;
-    background-size: 1.25rem;
-}
-.accordion-button {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 1rem 1.25rem;
-    text-align: left;
-    border: 0;
-    border-radius: 0;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s;
-}
+
 
 /* Apply overflow-anchor only in browsers that support it */
 @supports (overflow-anchor: auto) {
@@ -1854,11 +1837,15 @@
 .accordion-body {
     font-weight: 500;
     font-size: 19px;
+    background-color: #5857D2;
+    border: 1px solid #fff;
+    color: #fff;
 }
 .accordion-button {
     font-size: 21px;
-    color: #3f334f;
-    font: 400 22px/0.8 'Zilla Slab',serif;
+    color: #fff;
+    background-color: #5857D2;
+    font: 400 22px/0.8 'Josefin Sans',serif;
 }
 .Objectways:hover,
 .nav-item a.active,
@@ -1898,7 +1885,7 @@
         margin-top: 7%;
     }
     .faq_fonts2 {
-        font-family: "Zilla Slab", serif !important;
+        font-family: "Josefin Sans", serif !important;
     }
     .leftside {
         margin-top: -23%!important;
@@ -1915,7 +1902,7 @@
         font-size: 15px;
     }
     .faq_fonts2 {
-        font-family: "Zilla Slab", serif !important;
+        font-family: "Josefin Sans", serif !important;
     }
     .leftside {
         margin-top: -20%;
@@ -1990,10 +1977,10 @@
         margin-left: -100px !important;
     }
     .datasets_head h1 {
-        font: 400 30px/1.22 "Zilla Slab", serif !important;
+        font: 400 30px/1.22 "Josefin Sans", serif !important;
     }
     .datasets_head p {
-        font: 400 15px/1.22 "Zilla Slab", serif !important;
+        font: 400 15px/1.22 "Josefin Sans", serif !important;
     }
     .card_dataset_download {
         background-color: #fc6140 !important;
@@ -2012,10 +1999,10 @@
         margin-left: -50px !important;
     }
     .datasets_head h1 {
-        font: 400 30px/1.22 "Zilla Slab", serif !important;
+        font: 400 30px/1.22 "Josefin Sans", serif !important;
     }
     .datasets_head p {
-        font: 400 15px/1.22 "Zilla Slab", serif !important;
+        font: 400 15px/1.22 "Josefin Sans", serif !important;
     }
     .card_dataset_download {
         background-color: #fc6140 !important;
@@ -2032,10 +2019,10 @@
         margin-top: 20px !important;
     }
     .datasets_head h1 {
-        font: 400 30px/1.22 "Zilla Slab", serif !important;
+        font: 400 30px/1.22 "Josefin Sans", serif !important;
     }
     .datasets_head p {
-        font: 400 15px/1.22 "Zilla Slab", serif !important;
+        font: 400 15px/1.22 "Josefin Sans", serif !important;
     }
     .card_dataset_download {
         background-color: #fc6140 !important;
@@ -2051,10 +2038,10 @@
         width: 600px !important;
     }
     .datasets_head h1 {
-        font: 400 40px/1.22 "Zilla Slab", serif !important;
+        font: 400 40px/1.22 "Josefin Sans", serif !important;
     }
     .datasets_head p {
-        font: 400 15px/1.22 "Zilla Slab", serif !important;
+        font: 400 15px/1.22 "Josefin Sans", serif !important;
     }
     .card_dataset_download {
         background-color: #fc6140 !important;
@@ -2070,10 +2057,10 @@
         width: 683px !important;
     }
     .datasets_head h1 {
-        font: 400 50px/1.22 "Zilla Slab", serif !important;
+        font: 400 50px/1.22 "Josefin Sans", serif !important;
     }
     .datasets_head p {
-        font: 400 19px/1.22 "Zilla Slab", serif !important;
+        font: 400 19px/1.22 "Josefin Sans", serif !important;
     }
     .card_dataset_download {
         background-color: #fc6140 !important;
@@ -2100,7 +2087,7 @@
     font-size: 30px;
     text-decoration: none;
     color: #ff4500 !important;
-    font-family: "Zilla Slab" !important;
+    font-family: "Josefin Sans" !important;
 }
 .error_text:hover {
     color: #3f334f !important;
@@ -2121,13 +2108,13 @@
 }
 .certification_para {
     font-size: 19px !important;
-    font: 400 40px/1.22 "Zilla Slab", serif;
+    font: 400 40px/1.22 "Josefin Sans", serif;
 }
 .ISO_27001 {
     width: 300px !important;
 }
 .certification_font {
-    font: 400 40px/1.22 "Zilla Slab", serif;
+    font: 400 40px/1.22 "Josefin Sans", serif;
 }
 .certification_images {
     display: flex !important;
@@ -2299,7 +2286,7 @@ li.with-margin {
     display: none!important;
 }
 .about-title {
-    font: 400 30px/1.22 'Zilla Slab',serif;
+    font: 400 30px/1.22 'Josefin Sans',serif;
 }
 .navbar_body {
     margin-top: 70px!important;
@@ -2308,52 +2295,52 @@ li.with-margin {
     margin-top: 44px!important;
 }
 .blog-title>h1 {
-    font: 400 25px/1.22 'Zilla Slab',serif!important;
+    font: 400 25px/1.22 'Josefin Sans',serif!important;
 }
 
   }
   @media (min-width: 1024px) and (max-width: 1400px),
   (max-width: 480px){
     .blog-title>h1 {
-        font: 400 35px/1.22 'Zilla Slab',serif;
+        font: 400 35px/1.22 'Josefin Sans',serif;
     }
     .home {
         position: relative;
         z-index: 2;
-        margin-bottom: -111px;
+        /* margin-bottom: -111px; */
     }
-    .labeling-banner {
+    /* .labeling-banner {
         width: 305px;
         height: auto;
-    }
+    } */
     .case-title-data>h2, .case-title>h2, .data-title, .data-title1, .sol-title>h2 {
-        font: 400 40px/1.22 'Zilla Slab',serif;
+        font: 400 40px/1.22 'Josefin Sans',serif;
     }
     .card-title, .usecasetitle {
          margin-bottom: 0rem; 
     }
     .home-content>h2 {
-        font: 400 16px/1.8 'Inter',sans-serif;
+        font: 500 19px/1.8 "Montserrat",sans-serif;
     }
     .sol-title>h2 {
-        font: 400 30px/1.22 'Zilla Slab',serif;
+        font: 400 30px/1.22 'Josefin Sans',serif;
     }
     .card-img-top {
-        width: 230px;
+        width: 20%;
         height: auto;
     }
     .card-text {
-        font: 400 14px/1.73 'Inter',sans-serif;
+        font: 400 14px/1.73 "Montserrat",sans-serif;
         color: var(--purple);
     }
     /* .banner-top {
         margin-top: 44px!important;
     } */
     .case-title-data>h2, .case-title>h2, .data-title, .data-title1, .sol-title>h2 {
-        font: 400 30px/1.22 'Zilla Slab',serif;
+        font: 400 30px/1.22 'Josefin Sans',serif;
     }
     .usecase-text li p {
-        font: 400 23px/1.2 'Zilla Slab',serif;
+        font: 400 23px/1.2 'Josefin Sans',serif;
     }
     .usecasect-img {
         max-width: 310px;
@@ -2363,26 +2350,27 @@ li.with-margin {
     }
     .card-img-cont {
         height: auto;
-        max-width: 48rem;
+        /* max-width: 48rem; */
+        max-width: 43rem;
     }
     .our_process {
         padding: 0 0 44px;
     }
     ul.faq_list li {
-        font: 400 14px/1.8 'Inter',sans-serif;
+        font: 400 14px/1.8 "Montserrat",sans-serif;
     }
     .slide-controls {
         width: 100%;
         max-width: 726px;
-        margin: 25px auto 35px;
+        /* margin: 25px auto 35px; */
         text-align: left;
     }
     ul.check li {
-        font: 400 15px/1.8 'Inter',serif;
+        font: 400 15px/1.8 "Montserrat",serif;
         padding-left: 35px;
     }
     .bespoke-text>h2 {
-        font: 400 30px/1.22 'Zilla Slab',serif;
+        font: 400 30px/1.22 'Josefin Sans',serif;
     }
     .card-img-bespoke {
         max-width: 16rem ;
@@ -2409,7 +2397,7 @@ li.with-margin {
         max-width: 29rem;
     }
     .form-head {
-        font: 500 20px/1.75 'Zilla Slab',sans-serif;
+        font: 500 20px/1.75 'Josefin Sans',sans-serif;
     }
     .cm-img {
         width: 100%;
@@ -2437,13 +2425,13 @@ li.with-margin {
         margin-top: 10px;
     }
     ul.check1 li {
-        font: 400 15px/1.8 'Inter',sans-serif;
+        font: 400 15px/1.8 "Montserrat",sans-serif;
         padding-left: 30px;
         background: url(../img/checkmark.svg) 6px 6px/20px auto no-repeat;
     }
     .slick-slide img {
-        width: 70%;
-        border: 2px solid #fff;
+        /* width: 70%; */
+        /* border: 2px solid #b00dfd; */
     }
 
     .chart-text {
@@ -2463,7 +2451,7 @@ li.with-margin {
         padding-bottom: 0px;
     }
     .data-partner>div>p {
-        font: 400 18px/0.75 'Zilla Slab',sans-serif;
+        font: 400 18px/0.75 'Josefin Sans',sans-serif;
     }
     .usecase-img {
         width: 47%;
@@ -2475,9 +2463,9 @@ li.with-margin {
         width: 80%;
     }
     .ab-p {
-        font: 400 20px/1.4 'Zilla Slab',sans-serif;
+        font: 400 20px/1.4 'Josefin Sans',sans-serif;
     }
-  .accordion-lf {
+  /* .accordion-lf {
     border: 5px solid rgb(252, 97, 64);
     border-top-color: #fff;
     border-left-color: #fff;
@@ -2486,7 +2474,7 @@ li.with-margin {
     border: 5px solid rgb(252, 97, 64);
     border-top-color: #fff;
     border-right-color: #fff;
-}
+} */
   }
   @media (min-width: 1024px) and (max-width: 1400px){
     .customer, .relax {
@@ -2501,7 +2489,7 @@ li.with-margin {
         max-width: 26%;
     }
     .blog-title>h1 {
-        font: 400 28px/1.22 'Zilla Slab',serif!important;
+        font: 400 28px/1.22 'Josefin Sans',serif!important;
     }
     .video-tabs>ul>li>a {
         display: block;
@@ -2518,10 +2506,14 @@ li.with-margin {
         margin-bottom: 0rem;
     }
       .navbar_body {
-        margin-top: 70px!important;
+        margin-top: 50px!important;
+        /* 70 change to 50 mani*/
     }
        .txt>blockquote {
-        font: italic 400 16px/1.62 'Zilla Slab',serif;
+        font: 400 16px/1.62 'Josefin Sans',serif;
+    }
+    .txt{
+        max-width: 444px;
     }
     .quote-slider-wrap {
         width: 100%;
@@ -2567,6 +2559,38 @@ li.with-margin {
     .b-left {
         left: -75px;
     }
+
+    .landing-page {
+        position: relative;
+        width: 100%;
+        height: auto;  
+        background: url('/img/banner/landing_page.png') no-repeat center center;
+        background-size: contain;
+    }
+    .video-bg {
+        position: relative;
+        width: 100%;
+        height: 100vh; /* Full viewport height */
+        background: url('/img/banner/Gradient.png') no-repeat center center;
+        background-size: cover;
+    }
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+       /*  z-index: 1; Place video behind the content */
+       z-index: 1;
+    }
+    
+    .video-background video {
+        width: 100%;
+        margin-top: 0px;
+        /* height: 100%; */
+        /* object-fit: cover; Ensures the video covers the element */
+    }
   }
 
   .image-container {
@@ -2578,3 +2602,18 @@ li.with-margin {
   .image-container::-webkit-scrollbar {
     display: none; /* Chrome, Safari, and Opera */
   }
+  @media (max-width: 768px) {
+    #announcement-banner {
+        display: none;
+    }
+}
+@media (min-width: 1024px) {
+    .quote-slider-wrap {
+        width: 100%;
+        max-width: 728px;
+        margin-top: 15px;
+        height: 350px;
+        position: relative;
+        overflow: hidden;
+    }
+}

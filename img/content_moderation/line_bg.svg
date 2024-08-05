@@ -1,0 +1,16 @@
+<svg width="1730" height="420" viewBox="0 0 1730 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="13" cy="210" r="12.5" stroke="black"/>
+<circle cx="13" cy="210" r="8" fill="#AC0000"/>
+<circle cx="440" cy="211" r="12.5" stroke="black"/>
+<circle cx="866" cy="210" r="11.5" stroke="black"/>
+<circle cx="1292" cy="210" r="11.5" stroke="black"/>
+<path d="M12.5 211.624C12.4998 -67.8745 441.5 -67.8746 441.5 211.624" stroke="#AC0000" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 14"/>
+<path d="M866 211.624C866 -67.8745 1295 -67.8746 1295 211.624" stroke="#289900" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 14"/>
+<path d="M439 206.376C439 485.875 868 485.875 868 206.376" stroke="#0059DE" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 14"/>
+<circle cx="866" cy="210" r="8" fill="#289900"/>
+<circle cx="440" cy="211" r="8" fill="#0059DE"/>
+<path d="M1293 207.751C1293 487.249 1727.5 486.499 1719 209.999" stroke="#AC1BDF" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 14"/>
+<circle cx="1292" cy="210" r="8" fill="#001CAD"/>
+<circle cx="1718" cy="210" r="11.5" stroke="black"/>
+<circle cx="1718" cy="210" r="8" fill="#AC1BDF"/>
+</svg>

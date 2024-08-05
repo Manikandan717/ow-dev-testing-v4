@@ -54,7 +54,7 @@
   .icon-right-long{
     font: 400 28px/1.8 'Inter',sans-serif;
     padding-left: 42px;
-    background: url(../img/icons/right-long.svg) 6px 6px/25px auto no-repeat;
+    background: url(../img/icons/right_arrow.svg) 6px 6px/25px auto no-repeat;
   }
   .icon-left-long{
     font: 400 28px/1.8 'Inter',sans-serif;

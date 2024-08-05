@@ -1,8 +1,8 @@
 class Mynavbar extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `    <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
-      <div class="container-fluid">
-        <a class="navbar-brand d-lg-none" href="/"><img src="/img/logo.webp" alt="logo"></a>
+      <div class="container">
+        <a class="navbar-brand d-lg-none" href="/"><img src="/img/sidebar_logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation" id="navbarToggle">
@@ -12,6 +12,9 @@ class Mynavbar extends HTMLElement {
        </span>
       </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav" d-flex justify-content-start">
+             <a class="navbar-brand d-none d-lg-block" href="/"><img src="/img/sidebar_logo.png" alt="logo"></a>
+          </ul>
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a class="nav-link drp-toggle" href="#" aria-expanded="false">Solutions&nbsp;</a>
@@ -51,15 +54,21 @@ class Mynavbar extends HTMLElement {
             </li>-->
            
           </ul>
-          <a class="navbar-brand d-none d-lg-block" href="/"><img src="/img/logo.webp" alt="logo"></a>
-          <ul class="navbar-nav" style="width: 339px;display: flex;justify-content: flex-end;">
-   
-     
+        <!--   <a class="navbar-brand d-none d-lg-block" href="/"><img src="/img/logo.webp" alt="logo"></a>-->
+          <ul class="navbar-nav" d-flex justify-content-end">
              <li> <a class="nav-link button-con" href="/contact-us.html">Contact</a></li>
           </ul>
         </div>
       </div>
-    </nav>`;
+    </nav>
+
+      <div id="announcement-banner" class="b-blue text-white text-center py-2 d-flex justify-content-between align-items-center position-relative" style="top: 80px;">
+      <div class="d-flex justify-content-center flex-grow-1">
+        <span>Welcome to our website!</span>
+      </div>
+     <!-- <button type="button" class="btn-close me-5" aria-label="Close" id="close-announcement"></button>-->
+    </div>
+    `;
     }
   }
   
@@ -77,3 +86,7 @@ class Mynavbar extends HTMLElement {
         closeIcon.classList.remove('hidden');
     }
 });
+// document.getElementById('close-announcement').addEventListener('click', function () {
+//   const banner = document.getElementById('announcement-banner');
+//   banner.style.display = 'none'; // This hides the banner
+// });
