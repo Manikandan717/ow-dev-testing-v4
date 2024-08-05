@@ -1,6 +1,6 @@
-class  Happycustomer extends HTMLElement {
-    connectedCallback() {
-      this.innerHTML = `  
+class Happycustomer extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `  
 <section class="contact ">
       <div class="container-fuild">
         <div class="row py-md-5">
@@ -125,10 +125,10 @@ class  Happycustomer extends HTMLElement {
                     <textarea class="form-control p-3" rows="5" name="message" id="userMessage" placeholder="Comments *" required autocomplete="on"></textarea>
                   </div>
                   <div class="d-flex align-items-center justify-content-center my-3 md-4">
-                    <button type="submit" class="button-con-foot-home bg-warning" onclick="submitToAPI(event)">
-                      Submit
-                      <i class="bi bi-chevron-right"></i>
-                    </button>
+              <button type="submit" class="button-con-foot-home btn btn-outline-none bg-warning" onclick="submitToAPI(event)">
+          <span>Submit</span>
+</button>
+
                   </div>
                 </form>
               </div>
@@ -138,98 +138,98 @@ class  Happycustomer extends HTMLElement {
         </div>
       </div>
     </section>`;
+  }
 }
-}
 
-customElements.define('happy-customer', Happycustomer);
+customElements.define("happy-customer", Happycustomer);
 
-//  Email Lambda function starts here  
+//  Email Lambda function starts here
 
-    function submitToAPI(e) {
-      e.preventDefault();
-      var URL = "https://412qcg7lui.execute-api.us-east-1.amazonaws.com/prod/api";
-      var Namere = /[A-Za-z]{1}[A-Za-z]/;
-      if (!Namere.test($("#firstName").val())) {
-        Swal.fire('Name Cannot Be Less than 2 char')
-        return;
-      }
-      var Namere1 = /[A-Za-z]{1}[A-Za-z]/;
-      if (!Namere.test($("#lastName").val())) {
-        Swal.fire('Name Cannot Be Less than 2 char')
-        return;
-      }
-      if ($("#userEmail").val() == "") {
-        Swal.fire('Please enter your Email id')
-        return;
-      }
-      var mobilere = /[0-9]{10}/;
-      if (!mobilere.test($("#userPhone").val())) {
-        // alert ("Please enter valid mobile number");
-        Swal.fire('Please enter valid mobile number')
-        return;
-      }
-      /* var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+function submitToAPI(e) {
+  e.preventDefault();
+  var URL = "https://412qcg7lui.execute-api.us-east-1.amazonaws.com/prod/api";
+  var Namere = /[A-Za-z]{1}[A-Za-z]/;
+  if (!Namere.test($("#firstName").val())) {
+    Swal.fire("Name Cannot Be Less than 2 char");
+    return;
+  }
+  var Namere1 = /[A-Za-z]{1}[A-Za-z]/;
+  if (!Namere.test($("#lastName").val())) {
+    Swal.fire("Name Cannot Be Less than 2 char");
+    return;
+  }
+  if ($("#userEmail").val() == "") {
+    Swal.fire("Please enter your Email id");
+    return;
+  }
+  var mobilere = /[0-9]{10}/;
+  if (!mobilere.test($("#userPhone").val())) {
+    // alert ("Please enter valid mobile number");
+    Swal.fire("Please enter valid mobile number");
+    return;
+  }
+  /* var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
        if (!reeamil.test($("#email-input").val())) {
            alert ("Please enter valid email address");
            return;
        }*/
-      var fname = $("#firstName").val();
-      var lname = $("#lastName").val();
-      var phone = $("#userPhone").val();
-      var email = $("#userEmail").val();
-      var desc = $("#userMessage").val();
-      var data = {
-        fname: fname,
-        lname: lname,
-        phone: phone,
-        email: email,
-        desc: desc
-      };
-      $.ajax({
-        type: "POST",
-        url: "https://412qcg7lui.execute-api.us-east-1.amazonaws.com/prod/api",
-        dataType: "json",
-        crossDomain: "true",
-        contentType: "application/json; charset=utf-8",
-        data: JSON.stringify(data),
-        success: function() {
-          // clear form and show a success message
-          //  alert("Successful");
-          Swal.fire({
-            icon: 'success',
-            title: 'Success...',
-            text: 'Successfully submitted your application!',
-            footer: ' < a href = "index.html" > Go to home Page < /a>',
-          }).then(function() {
-            document.getElementById("contactform").reset();
-            location.reload("contactform");
-          });
-          document.getElementById("contact-form").reset();
-          location.reload();
-        },
-        error: function() {
-          // show an error message
-          //  alert("Unsuccessful");
-          Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Something went wrong!',
-            footer: ' < a href = "" > Why do I have this issue ? < /a>'
-          })
-        }
+  var fname = $("#firstName").val();
+  var lname = $("#lastName").val();
+  var phone = $("#userPhone").val();
+  var email = $("#userEmail").val();
+  var desc = $("#userMessage").val();
+  var data = {
+    fname: fname,
+    lname: lname,
+    phone: phone,
+    email: email,
+    desc: desc,
+  };
+  $.ajax({
+    type: "POST",
+    url: "https://412qcg7lui.execute-api.us-east-1.amazonaws.com/prod/api",
+    dataType: "json",
+    crossDomain: "true",
+    contentType: "application/json; charset=utf-8",
+    data: JSON.stringify(data),
+    success: function () {
+      // clear form and show a success message
+      //  alert("Successful");
+      Swal.fire({
+        icon: "success",
+        title: "Success...",
+        text: "Successfully submitted your application!",
+        footer: ' < a href = "index.html" > Go to home Page < /a>',
+      }).then(function () {
+        document.getElementById("contactform").reset();
+        location.reload("contactform");
       });
-    };
+      document.getElementById("contact-form").reset();
+      location.reload();
+    },
+    error: function () {
+      // show an error message
+      //  alert("Unsuccessful");
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong!",
+        footer: ' < a href = "" > Why do I have this issue ? < /a>',
+      });
+    },
+  });
+}
 
-    $(document).ready(function() {
-      $('.car').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 2000,
-        centerMode: true,
-        variableWidth: true,
-        prevArrow: '.left',
-        nextArrow: '.right'
-      });
-    });
-    //  EMail Lambda function ends here 
+$(document).ready(function () {
+  $(".car").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    centerMode: true,
+    variableWidth: true,
+    prevArrow: ".left",
+    nextArrow: ".right",
+  });
+});
+//  EMail Lambda function ends here
