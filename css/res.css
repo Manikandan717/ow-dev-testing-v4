@@ -1278,7 +1278,7 @@
 }
 @media screen and (min-width: 1400px) {
     .chart-img {
-        width: 48em;
+        width: 83em;
     }
     .loc-img {
         width: 60em;
@@ -1425,10 +1425,7 @@
     }
 }
 @media screen and (min-width: 659px) and (max-width: 991px) {
-    .media {
-        display: flex;
-        flex-direction: column;
-    }
+  
 }
 @media screen and (min-width: 767px) and (max-width: 991px) {
     .hiring-banner {
@@ -1587,7 +1584,7 @@
     }
 }
 .hiring {
-    font-size: 175px;  /* font-size: 235px; */
+    font-size: 65px;  /* font-size: 235px; */
     font-family: "Josefin Sans", serif;
     /* margin-left: 2%; */
 }

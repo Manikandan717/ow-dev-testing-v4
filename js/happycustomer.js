@@ -125,7 +125,7 @@ class Happycustomer extends HTMLElement {
                     <textarea class="form-control p-3" rows="5" name="message" id="userMessage" placeholder="Comments *" required autocomplete="on"></textarea>
                   </div>
                   <div class="d-flex align-items-center justify-content-center my-3 md-4">
-              <button type="submit" class="button-con-foot-home btn btn-outline-none bg-warning" onclick="submitToAPI(event)">
+              <button type="submit" class="button-con-home btn btn-outline-none" onclick="submitToAPI(event)">
           <span>Submit</span>
 </button>
 
