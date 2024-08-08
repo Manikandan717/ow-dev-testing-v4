@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat:wght@400;700;italic&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat:wght@400;700;italic&family=Roboto:wght@400;500;700&display=swap');
+
 :root,body {
     background:#fff;
    
@@ -27,28 +28,28 @@
     font-style: normal;
     font-weight: 300; /* Light weight */
     font-display: swap;
-    src: url('/css/fonts/Montserrat-Light.ttf') format('truetype');
+    src: url(../css/fonts/Montserrat-Light.ttf) format('truetype');
   }
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('/css/fonts/Montserrat-Regular.ttf') format('truetype');
+    src: url(../css/fonts/Montserrat-Regular.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url('/css/fonts/Montserrat-Medium.ttf') format('truetype');
+    src: url(../css/fonts/Montserrat-Medium.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url('/css/fonts/Montserrat-Bold.ttf') format('truetype');
+    src: url(../css/fonts/Montserrat-Bold.ttf) format('truetype');
   }
   
   /* Josefin Sans Font Faces */
@@ -57,30 +58,60 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url('/css/fonts/JosefinSans-Light.ttf') format('truetype');
+    src: url(../css/fonts/JosefinSans-Light.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('/css/fonts/JosefinSans-Regular.ttf') format('truetype');
+    src: url(../css/fonts/JosefinSans-Regular.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url('/css/fonts/JosefinSans-Medium.ttf') format('truetype');
+    src: url(../css/fonts/JosefinSans-Medium.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url('/css/fonts/JosefinSans-Bold.ttf') format('truetype');
+    src: url(../css/fonts/JosefinSans-Bold.ttf) format('truetype');
   }
  
+  /* Roboto Font Faces */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../css/fonts/Roboto-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../css/fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(../css/fonts/Roboto-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../css/fonts/Roboto-Bold.ttf) format('truetype');
+}
+
 @font-face {
     font-family:'kitten_slantregular';
     src:url('kittenslant-webfont.woff2') format('woff2'),url('kittenslant-webfont.woff') format('woff');
@@ -125,8 +156,11 @@ a {
 .z-p {
     font:400 19px/2 'Josefin Sans',sans-serif
 }
-.breadcrumb a:hover,.drp-toggle i,.empower-color,.footer-list a:hover,.index_hover:hover,.nav-item a:hover,.nav-link:focus,.nav-link:hover {
-    color:#FFCB46
+.breadcrumb a:hover,.drp-toggle i,.footer-list a:hover,.index_hover:hover,.nav-item a:hover,.nav-link:focus,.nav-link:hover {
+    color:#5857D2;
+}
+.empower-color{
+    color:#FFCB46;
 }
 .b-blue{
     background-color:var(--blue);
@@ -268,8 +302,11 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     flex-wrap:wrap;
     align-content:center;
     justify-content:space-between;
-    align-items:center
+    align-items:center;
+     /* animation: scroll 20s linear infinite;
+     gap: 50px; */
 }
+
 #button-top,#page,.hidden {
     display:none
 }
@@ -618,6 +655,9 @@ h4,h5 {
 }
 .line-text{
     font:700 19px/1.2 'Josefin Sans',sans-serif;
+}
+.hiring-text{
+    font:700 36px/1.2 'Josefin Sans',sans-serif;
 }
 .Nlp,.Other-Service,.Our-Process,.Our-service,.Our-sourcing,.contact,.w_color {
     background-color:var(--white)
@@ -1200,7 +1240,8 @@ textarea {
     padding:0 8rem 0 11rem;
     display:flex;
     justify-content:flex-start;
-    font:400 26px/2 'Josefin Sans',sans-serif
+    font:400 26px/1.6 'Roboto',sans-serif;
+    color: #4A4949;
 }
 .button-cookie,.link-cookie {
     font:400 16px/1.125 'Montserrat',sans-serif!important
@@ -1250,12 +1291,15 @@ textarea {
 }
 .computer .screen-wrap .screen {
     position:absolute;
-    left:95px;
+    /* left:95px;
     top:10px;
-    width:1105px;
+    width:1105px; */
+    left: 65px;
+    top: 10px;
+    width: 622px;
     height:620px;
     border-radius:26px 26px 0 0;
-    overflow:hidden
+    overflow:hidden;
 }
 .security-banner {
     width:700px;
@@ -1336,7 +1380,8 @@ textarea {
 ul.check1 li {
     font:400 16px/1.8 'Montserrat',sans-serif;
     padding-left:60px;
-    background:url(../img/checkmark.svg) 6px 6px/20px auto no-repeat
+    /* background:url(../img/checkmark.svg) 6px 6px/20px auto no-repeat; */
+    background: url(../img/security/check-mark.png) 6px 6px/20px auto no-repeat;
 }
 .cookie-alert {
     position: fixed;
@@ -1406,7 +1451,7 @@ img {
     height:auto
 }
 .pad-top {
-    padding:70px 0
+    padding:90px 0
 }
 .ab-p {
     font:400 23px/1.4 'Josefin Sans',sans-serif
@@ -1659,7 +1704,7 @@ img {
     justify-content:center
 }
 .current-open-grid-1>h3 {
-    font:400 25px/1.38 'Josefin Sans',serif
+    font:500 25px/1.38 'Josefin Sans',serif
 }
 .button-text {
     font-size:30px
@@ -1730,7 +1775,7 @@ img {
     max-width:45rem
 }
 .social-title {
-    font:500 26px/1.38 'Josefin Sans',serif
+    font:700 40px/1.38 'Josefin Sans',serif
 }
 .contact-text>p {
     margin:0;
@@ -1925,8 +1970,8 @@ element.style {
 }
 .ourculture {
     background:#fffef9;
-    color:#eee;
-    overflow:hidden
+    color:#484848;
+    overflow:hidden;
 }
 .gallery {
     padding:0 50px 38rem
@@ -2068,11 +2113,11 @@ hr.small {
     font-size:30px!important;
     box-shadow:0 0 17px #00000005;
     border-radius:50%!important;
-    color:#fc6140!important
+    color:#5857D2!important
 }
 .slick-next:before,.slick-prev:before {
     font-size:35px!important;
-    color:#fc6140!important;
+    color:#5857D2!important;
     opacity:1!important
 }
 .partner-image {
@@ -2469,7 +2514,7 @@ span.icon.icon-chevron-left.slick-arrow {
     -o-animation-timing-function: linear;
   }
   .pad-top > h2 {
-    font: 400 50px/1.22 "Josefin Sans", serif;
+    font: 700 36px/1.22 "Josefin Sans", serif;
 }
 .accordion-lf {
     border: 5px solid rgb(252, 97, 64);
@@ -2945,7 +2990,7 @@ span.icon.icon-chevron-left.slick-arrow {
     height: auto;
 }
 .Our_Team_banner{
-        background-image: url('/img/AbooutUs_Page_team.svg');
+        background-image: url(../img/AbooutUs_Page_team.svg);
        
         background-size: cover; 
         background-position: center; 
@@ -3062,14 +3107,14 @@ background-color: #DFF5F9;
     position: relative;
     width: 100%;
     height: 100vh;  
-    background: url('/img/banner/landing_page.png') no-repeat center center;
+    background: url(../img/banner/landing_page.png) no-repeat center center;
     background-size: cover;
 }
 .video-bg {
     position: relative;
     width: 100%;
     height: 100vh; /* Full viewport height */
-    background: url('/img/banner/Gradient.png') no-repeat center center;
+    background: url(../img/banner/Gradient.png) no-repeat center center;
     background-size: cover;
 }
 .video-background {
@@ -3125,7 +3170,7 @@ background-color: #DFF5F9;
     text-underline-offset: 3px;
 }
 .bg-image {
-    background-image: url('/img/home/Image_Gradient.png');
+    background-image: url(../img/home/Image_Gradient.png);
     background-size: cover;
     background-position: center; 
     height: 100%; 
@@ -3169,29 +3214,22 @@ background-color: #DFF5F9;
     /* box-sizing: border-box; 
     position: relative;  */
 }
-.fixed-left {
-    position: relative;
-    top: 0;
-    left: 0;
+.full-height {
     height: 100vh;
-    /* overflow-y: auto; */
-    border-radius: 0px 20px 20px 0px;
-}
-.scrollable-right {
-    /* margin-left: 50%; */
-    height: 100vh;
-    /* width: 40%; */
-    overflow-y: auto;
+  }
+
+  .fixed-left {
+    /* background-color: #333; */
+    color: white;
     padding: 20px;
+    transition: all 0.3s ease;
+    border-radius: 0px 20px 20px 0px;
+  }
 
-}
-.scrollable-right::-webkit-scrollbar {
-    display: none;  /* For WebKit browsers */
-}
+  .scrollable-right {
+    padding: 20px;
+  }
 
-.scrollable-right {
-    scrollbar-width: none; /* For Firefox */
-}
 .custom-card {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -3200,14 +3238,14 @@ background-color: #DFF5F9;
     width: 100%;
 }
 .car-background {
-    position: relative;
-    top: 0;
+    position: sticky;
+    top: 6rem;
     left: 5rem;
-    width: 150%;
+    width: 100%;
     height: auto;
     overflow: visible;
-   z-index: 1;
-}
+    z-index: 1;
+  }
 
 .car-background img {
     width: 100%;
@@ -3246,7 +3284,8 @@ background-color: #DFF5F9;
     justify-content: center;
     border-radius: .2em;
     background: #FFCB46;
-    color: #fff;
+    color: #001C37;
+    font-weight: 700;
 }
   .button-con-foot-home {
     width: 60%;
@@ -3395,7 +3434,7 @@ background-color: #DFF5F9;
 
 /* new */
 .Our_line_banner {
-    background-image: url(/img/content_moderation/line_bg.svg);
+    background-image: url(../img/content_moderation/line_bg.svg);
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -3449,4 +3488,15 @@ background-color: #DFF5F9;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
   }
-  
+  .cp-text{
+    font: 400 21px / 1.8 'Roboto', sans-serif;
+    color: #373434;
+  }
+  .social-text{
+    font: 500 26px / 1.8 'Roboto', sans-serif;
+    /* color: #373434; */
+  }
+  .security-font {
+    font-size: 63px;
+    padding-top: 110px;
+}

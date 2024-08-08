@@ -1704,7 +1704,7 @@
 }
 .Impact-Sourcing {
     padding-top: 15px;
-    font: 500 19px/1.2 "Josefin Sans", sans-serif;
+    font: 500 19px/1.2 "Roboto", sans-serif;
 }
 .Working-together {
     padding-top: 2%;
@@ -1925,7 +1925,7 @@
     border: none;
     font-size: 17px;
     border-radius: 0.3em;
-    background: var(--orange);
+    background: var(--blue);
     color: var(--white);
 }
 .manager {
@@ -2424,7 +2424,8 @@ li.with-margin {
     ul.check1 li {
         font: 400 15px/1.8 "Montserrat",sans-serif;
         padding-left: 30px;
-        background: url(../img/checkmark.svg) 6px 6px/20px auto no-repeat;
+        /* background: url(../img/checkmark.svg) 6px 6px/20px auto no-repeat; */
+        background: url(../img/security/check-mark.png) 6px 6px/20px auto no-repeat;
     }
     .slick-slide img {
         /* width: 70%; */
@@ -2561,14 +2562,14 @@ li.with-margin {
         position: relative;
         width: 100%;
         height: auto;  
-        background: url('/img/banner/landing_page.png') no-repeat center center;
+        background: url(../img/banner/landing_page.png) no-repeat center center;
         background-size: contain;
     }
     .video-bg {
         position: relative;
         width: 100%;
         height: 100vh; /* Full viewport height */
-        background: url('/img/banner/Gradient.png') no-repeat center center;
+        background: url(../img/banner/Gradient.png) no-repeat center center;
         background-size: cover;
     }
     .video-background {
@@ -2604,6 +2605,10 @@ li.with-margin {
         display: none;
     }
 }
+
+
+/* Responsive For The Core Values and
+Principles that drive us */
 @media (min-width: 1024px) {
     .quote-slider-wrap {
         width: 100%;
@@ -2614,3 +2619,40 @@ li.with-margin {
         overflow: hidden;
     }
 }
+@media (max-width: 767px) {
+    .Our_Team_banner {
+      height: auto;
+      background-image: none;
+    }
+  
+    .Our_Team_ht {
+      margin-top: 0;
+    }
+.Our_Team_ht-1 {
+      margin-top: 0;
+    }
+    .p-5 {
+        padding: 0.75rem !important; /* 0.75rem = 12px */
+      }
+
+  }
+/* Title styles */
+@media (max-width: 767px) {
+    .title-3-I > span {
+      font: italic 500 25px/1.22 'Josefin Sans', serif;
+    }
+  }
+  
+  /* Car background image styles */
+  @media (max-width: 767px) {
+    .car-background img {
+      width: 70%;
+      height: auto;
+      max-width: none;
+    }
+  }
+  @media (min-width: 768px) {
+    .car-background {
+      width: 150%;
+    }
+  }

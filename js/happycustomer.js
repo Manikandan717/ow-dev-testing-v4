@@ -15,7 +15,7 @@ class Happycustomer extends HTMLElement {
       <div class="quote-slide ">
         <div class="quote-contents">
           <figure class="quote-image">
-            <img class="img-fluid rounded-circle" src="/img/home/cus_icon.png">
+            <img class="img-fluid rounded-circle" src="img/home/cus_icon.png">
           </figure>
           <div class="txt">
             <div class="byline text-center">
@@ -35,7 +35,7 @@ class Happycustomer extends HTMLElement {
       <div class="quote-slide">
         <div class="quote-contents">
           <figure class="quote-image">
-            <img class="img-fluid rounded-circle" src="/img/home/cus_icon.png">
+            <img class="img-fluid rounded-circle" src="img/home/cus_icon.png">
           </figure>
           <div class="txt">
             <div class="byline text-center">
@@ -55,7 +55,7 @@ class Happycustomer extends HTMLElement {
       <div class="quote-slide">
         <div class="quote-contents">
           <figure class="quote-image">
-            <img class="img-fluid rounded-circle" src="/img/home/cus_icon.png">
+            <img class="img-fluid rounded-circle" src="img/home/cus_icon.png">
           </figure>
           <div class="txt">
             <div class="byline text-center">
