@@ -10,10 +10,10 @@ class Myfooter extends HTMLElement {
                 <li>
                   <h5>SOLUTIONS</h5>
                 </li>
-                <li><a href="/data-labeling.html">Data Labeling</a></li>
-                <li><a href="/data-sourcing.html">Data Sourcing</a></li>
-                <li><a href="/content-moderation.html">Content Moderation</a></li>
-                 <li><a href="/generative-ai.html">Generative AI</a></li>
+                <li><a href="data-labeling.html">Data Labeling</a></li>
+                <li><a href="data-sourcing.html">Data Sourcing</a></li>
+                <li><a href="content-moderation.html">Content Moderation</a></li>
+                 <li><a href="generative-ai.html">Generative AI</a></li>
               </ul>
             </div>
             <div class="col">

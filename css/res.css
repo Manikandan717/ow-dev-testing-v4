@@ -229,10 +229,10 @@
         display: flex;
         flex-direction: column-reverse;
     }
-    .rectangle-warp {
+    /* .rectangle-warp {
         padding: 0 10px;
         background-color: #ffd740;
-    }
+    } */
     .flex-col {
         align-items: center;
         flex-direction: column;
@@ -542,10 +542,10 @@
         height: 425px;
         max-width: 30rem;
     }
-    .rectangle-warp {
+    /* .rectangle-warp {
         padding: 0 50px;
         background-color: #ffd740;
-    }
+    } */
     .form-box {
         width: 100%;
         max-width: 688px;
@@ -758,10 +758,10 @@
         height: 425px;
         max-width: 30rem;
     }
-    .rectangle-warp {
+    /* .rectangle-warp {
         padding: 0 50px;
         background-color: #ffd740;
-    }
+    } */
     .form-box {
         width: 100%;
         max-width: 688px;
@@ -779,10 +779,10 @@
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1190px) {
-    .rectangle-warp {
+    /* .rectangle-warp {
         padding: 0 50px;
         background-color: #ffd740;
-    }
+    } */
     .bespoke-text > h2 {
         font: 400 43px/1.22 "Josefin Sans", serif;
     }
@@ -2249,9 +2249,10 @@ li.with-margin {
 }
 .left_wrap1{
     background-color: #fff;
-    border: 1px solid #ffd1c3;
+    /* border: 1px solid #ffd1c3; */
     padding: 23px; 
-    background-color: #FFF8F2;
+    background-color: #F3F3FF;
+    ;
 }
 .demo-btn{
     position: absolute;
@@ -2413,11 +2414,11 @@ li.with-margin {
         height: auto;
         max-width: 30rem;
     }
-    .rectangle-warp {
+    /* .rectangle-warp {
         padding: 5px 0;
         background-color: #ffd740;
         border-radius: 10px;
-    }
+    } */
     ul.check li+li, ul.check1 li+li {
         margin-top: 10px;
     }
@@ -2607,6 +2608,8 @@ li.with-margin {
 }
 
 
+
+
 /* Responsive For The Core Values and
 Principles that drive us */
 @media (min-width: 1024px) {
@@ -2646,13 +2649,50 @@ Principles that drive us */
   /* Car background image styles */
   @media (max-width: 767px) {
     .car-background img {
-      width: 70%;
+      width: 100%;
       height: auto;
       max-width: none;
-    }
+    } 
+   
+    
   }
   @media (min-width: 768px) {
     .car-background {
       width: 150%;
     }
+   
   }
+
+ /* For valuable partners */
+ /* Responsive adjustments */
+ @media (max-width: 768px) {
+    .logo {
+      width: 120px;
+      height: 80px;
+      margin: 0 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .logo {
+      width: 100px;
+      height: 70px;
+      margin: 0 10px;
+    }
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* For Content Moderation cards spacing */
+  @media (max-width: 768px) { /* Adjust max-width for your specific mobile breakpoint */
+    .col, .control-wrap, .pos {
+        padding-top: 30px;
+    }
+  
+}
